@@ -1,0 +1,118 @@
+╔════════════════════════════════════════════════════════════════════════╗
+║                    MODELА TOOLKIT - QUICK REFERENCE                    ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+RUN THE SYSTEM:
+───────────────
+  python camera.py
+
+This automatically:
+  ✓ Generates prompt
+  ✓ Runs mandate checkpoint
+  ✓ Runs analytics (token breakdown, efficiency metrics)
+  ✓ Runs violation detection (narrative, filter-risk, character limits)
+  ✓ Saves VIOLATION_DETAIL_REPORT.md
+
+INTERPRET THE OUTPUT:
+─────────────────────
+
+TOKEN OVERVIEW tells you:
+  • Prompt Tokens: How many actual tokens in generated prompt
+  • Target: 3,000 tokens
+  • Budget Status: How many over/under
+  • Utilization: % of target (want 95-105%)
+
+HEAVIEST FILES identifies:
+  • Which definition files consume most tokens
+  • To hit budget: trim from top 5 files
+
+EFFICIENCY INSIGHTS shows:
+  • Most token-dense atoms (good - keep as is)
+  • Least efficient atoms (trim candidates)
+  • Tokens per character ratio (0.25 = 25% of chars are tokens)
+
+VIOLATIONS summary tells you:
+  • How many narrative language issues (remove: shows, appears, seems)
+  • How many filter-risk words (replace: exhausted→fatigued, etc)
+  • How many character limit violations (over 300 chars)
+  • Detailed fixes in VIOLATION_DETAIL_REPORT.md
+
+VIOLATION DETAIL REPORT shows:
+  • Exact atoms with violations
+  • Which file they're in
+  • What to fix
+  • Sorted by severity
+
+WORKFLOW: HIT THE BUDGET
+────────────────────────
+
+1. Run camera.py, note budget overage (e.g., +1,097 tokens)
+
+2. Open VIOLATION_DETAIL_REPORT.md
+
+3. Look at "HEAVIEST ATOMS - TRIM CANDIDATES" section
+
+4. Pick top 4-5 atoms, calculate trim needed:
+   Example: 1,097 tokens over ÷ 5 atoms = ~220 tokens each
+   At efficiency ratio 0.25, need to trim ~880 characters total
+   Spread across 5 atoms = ~175 chars per atom
+
+5. Edit those atoms in definitions/ files, keeping language clean
+
+6. Run camera.py again, check new token count
+
+7. Repeat until:
+   • Tokens between 2,900-3,100
+   • Violations = 0
+
+STANDALONE USAGE:
+─────────────────
+  python analytics.py          (token analysis only)
+  python violation_reporter.py (violations only)
+
+TIKTOKEN (optional but recommended):
+─────────────────────────────────────
+  pip install tiktoken
+
+Then toolkit uses ACTUAL token counting instead of estimation.
+Verify: python -c "import tiktoken; print('OK')"
+
+KEY METRICS TO TRACK:
+─────────────────────
+  • Prompt Tokens: Want final = 3,000
+  • Total Violations: Want final = 0
+  • P0/P1/P2 distribution: Should stay ~14%/68%/18%
+  • Mandate Checkpoint: Must stay PASS
+
+FILES TO READ:
+───────────────
+  TOOLKIT_DOCUMENTATION.md   - Complete reference
+  TOOLKIT_DEPLOYMENT.md      - How to use toolkit
+  VIOLATION_DETAIL_REPORT.md - Current violations (auto-generated)
+  MANDATORY_RULES.md         - Project rules (read at session start!)
+
+REMEMBER:
+─────────
+✓ Every edit, run camera.py to see impact
+✓ VIOLATION_DETAIL_REPORT.md auto-updates each run
+✓ Target highest-token atoms first for best ROI
+✓ Keep atoms under 300 chars (280 is safe)
+✓ Remove narrative language (shows, appears, seems)
+✓ Replace filter-risk words (check violation report for exact replacements)
+
+QUICK MATH:
+───────────
+Over budget by 1,097 tokens?
+  → Trim 20% across top 5 files = ~1,100 token reduction
+  → Or trim 30% from top 3 files = ~1,100 token reduction
+
+Each atom trimmed by 10% = roughly 3-4 tokens saved
+Need to save 1,097 tokens? → Trim ~250-300 atoms by 5% OR
+                              → Trim ~15-20 atoms by 30%
+
+════════════════════════════════════════════════════════════════════════
+
+Everything runs automatically. Just run camera.py and follow the reports.
+Questions? Read TOOLKIT_DOCUMENTATION.md.
+
+System ready. 💙

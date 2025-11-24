@@ -1,0 +1,120 @@
+{
+  "focus.turn_just_completed": {
+    "domain": "focus",
+    "tier": 1,
+    "description": "Just completed turn, settling",
+    "contents": "Body square to point of focus. Dress swaying from recent rotation. Feet positioned. Eyes locked on focus.",
+    "group": "camera_relationship",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "reveals": [
+      "front",
+      "side"
+    ],
+    "viewing_angle": "three-quarter",
+    "distance": "medium",
+    "min_visible_distance": "medium"
+  },
+  "focus.head_oriented_close": {
+    "domain": "focus",
+    "tier": 1,
+    "description": "Head orientation for close-up shots",
+    "contents": "Face lifting to meet overhead focus. Eyes and face aligning upward toward focus position. Natural upward gaze with face following. Responding to focus above.",
+    "group": "camera_relationship",
+    "priority": "P1: CORE",
+    "random": false,
+    "min_visible_distance": "close",
+    "max_visible_distance": "close"
+  },
+  "focus.turn_three_quarter": {
+    "domain": "focus",
+    "tier": 1,
+    "description": "3/4 through turn, still rotating",
+    "contents": "Body 45deg from frontal. Shoulders rotating toward point of focus. Dress swirling. Head turned more than body. Eyes finding focus.",
+    "group": "camera_relationship",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "reveals": [
+      "front",
+      "side"
+    ],
+    "viewing_angle": "three-quarter",
+    "distance": "medium",
+    "min_visible_distance": "medium"
+  },
+  "focus.turn_overshot_correcting": {
+    "domain": "focus",
+    "tier": 1,
+    "description": "Overshot, micro-correcting back",
+    "contents": "Body rotated beyond focus position. Dress directional confusion. Balance slightly off. Eyes locked but body imperfect.",
+    "group": "camera_relationship",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "reveals": [
+      "side",
+      "back"
+    ],
+    "viewing_angle": "three-quarter",
+    "distance": "medium",
+    "min_visible_distance": "medium"
+  },
+  "focus.turn_halfway_stalled": {
+    "domain": "focus",
+    "tier": 1,
+    "description": "Partial turn then stalled",
+    "contents": "Body 60deg from frontal. Partial rotation then stopped. Dress arrested movement. Weight distribution awkward.",
+    "group": "camera_relationship",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "reveals": [
+      "side"
+    ],
+    "viewing_angle": "side",
+    "distance": "medium",
+    "min_visible_distance": "medium"
+  },
+  "focus.head_leads_body_lags": {
+    "domain": "focus",
+    "tier": 1,
+    "description": "Head snapped, body catching up",
+    "contents": "Face oriented to point of focus, neck twisted, shoulders still rotating. Dress body rotation. Strain visible in neck position.",
+    "group": "camera_relationship",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "reveals": [
+      "front",
+      "side"
+    ],
+    "viewing_angle": "three-quarter",
+    "distance": "medium",
+    "min_visible_distance": "medium"
+  },
+  "focus.body_leads_head_follows": {
+    "domain": "focus",
+    "tier": 1,
+    "description": "Shoulders square, head turning in",
+    "contents": "Body square to focus, shoulders and torso frontal. Head still turning in. Neck in active rotation. Eyes searching. Dress settled frontal.",
+    "group": "camera_relationship",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "reveals": [
+      "side",
+      "back"
+    ],
+    "viewing_angle": "three-quarter",
+    "distance": "medium",
+    "min_visible_distance": "medium"
+  }
+}

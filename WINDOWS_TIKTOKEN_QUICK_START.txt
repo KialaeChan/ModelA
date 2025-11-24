@@ -1,0 +1,48 @@
+# WINDOWS TIKTOKEN SETUP - DO THIS NOW
+
+## You're using Python 3.13 and tiktoken is not installed to it.
+
+### Quick Fix (Recommended):
+
+```powershell
+python fix_tiktoken_windows.py
+```
+
+This script will install tiktoken automatically.
+
+### Manual Install (if script doesn't work):
+
+```powershell
+python -m pip install --upgrade pip
+python -m pip install tiktoken
+```
+
+Then verify:
+
+```powershell
+python check_tiktoken.py
+```
+
+### Then test camera.py:
+
+```powershell
+py camera.py
+```
+
+You should see at the top:
+```
+✓ Using tiktoken for accurate token counting
+```
+
+Instead of the warning message.
+
+---
+
+## Why this happened:
+
+- You have Python 3.13 installed
+- You ran `pip install tiktoken` but it might have installed to a different Python version
+- OR it installed but Python 3.13 can't find it (PATH/environment issue)
+
+The `fix_tiktoken_windows.py` script handles all of this automatically.
+

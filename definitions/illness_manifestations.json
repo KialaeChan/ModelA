@@ -1,0 +1,58 @@
+{
+  "illness.chronic_insomnia_severe": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    
+    "description": "SACRED - Chronic severe sleep deprivation - close view with detail",
+    "contents": "Bloodshot eyes - red veins across white. Dark purple circles under eyes visible through concealer. Heavy drooping eyelids half-closed. Jaw hanging slack. Face held up with visible strain.",
+    "group": "illness_type",
+    "priority": "P0: MANDATE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close",
+    "max_visible_distance": "close"
+  },
+  "illness.chronic_insomnia_severe_medium": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    
+    "description": "SACRED - Chronic severe sleep deprivation - medium distance",
+    "contents": "Bloodshot eyes visible even at distance. Dark purple-grey circles under eyes visible through heavy concealer layers. Heavy drooping eyelids half-closed. Face held up with visible muscular strain. Pallid complexion beneath makeup.",
+    "group": "illness_type",
+    "priority": "P0: MANDATE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "medium",
+    "max_visible_distance": "medium"
+  },
+  "illness.dissociation_profound": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    
+    "description": "SACRED - Profound dissociation - close view with pupil detail",
+    "contents": "Eyes staring through focal point into distance. Gaze aimed forward but focused 20 feet beyond. Pupils wide - 6-7mm. Glassy reflective surface on eyes. Face holding smile shape. Eyes completely empty.",
+    "group": "illness_type",
+    "priority": "P0: MANDATE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close",
+    "max_visible_distance": "close"
+  },
+  "illness.dissociation_profound_medium": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    
+    "description": "SACRED - Profound dissociation - medium distance",
+    "contents": "Eyes staring through viewer into far distance. Gaze aimed forward but focused far beyond camera. Pupils dilated. Glassy reflective surface on eyes visible. Face holding smile shape but eyes completely empty. Nobody home behind the makeup.",
+    "group": "illness_type",
+    "priority": "P0: MANDATE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "medium",
+    "max_visible_distance": "medium"
+  }
+}

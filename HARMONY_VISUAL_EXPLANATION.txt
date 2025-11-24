@@ -1,0 +1,54 @@
+═══════════════════════════════════════════════════════════════════
+GLITTER & PATTERN HARMONY - CONCEPTUAL FIX
+═══════════════════════════════════════════════════════════════════
+
+BEFORE (Conflicting):
+────────────────────
+Pattern Atom:  "Small floral motifs (10-15mm) scattered across fabric"
+Glitter Mandate: "EVERY SURFACE GLEAMS AND GLITTERS WITH BRIGHT REFLECTIONS"
+
+Problem: System treats these as separate layers fighting for dominance
+Result: Prompt tries to describe both printed flowers AND dense glitter
+        as separate elements = visual contradiction in generation
+
+═══════════════════════════════════════════════════════════════════
+
+AFTER (Harmonized):
+──────────────────
+Fabric Option 1: "Glitter-woven textile" (structural sparkle in weave)
+Pattern Option 1: "Floral motifs integrated into glitter-woven base fabric"
+Result: Sparkle and pattern unified as ONE surface property
+
+Fabric Option 2: Standard fabric (silk tulle, organza, etc.)
+Pattern Option 2: "Small floral motifs scattered across fabric" (traditional)
+Embellishment: "Glitter-fabric-panels" (adds sparkle layer if needed)
+Result: Works as before for non-sparkle-heavy looks
+
+═══════════════════════════════════════════════════════════════════
+
+THE REFERENCE IMAGE SHOWS:
+─────────────────────────
+A cohesive surface where:
+✓ Floral pattern is PART OF the glitter fabric itself
+✓ Flowers and glitter coexist without competition
+✓ The entire dress reads as a unified "glittery floral" surface
+✓ Sparkles are NOT separate embellishments on top
+✓ Pattern IS integrated into the glitter-weave base
+
+═══════════════════════════════════════════════════════════════════
+
+HOW TO USE IN FUTURE VARIATIONS:
+────────────────────────────────
+For glitter-heavy looks:
+→ Use glitter-compatible fabrics + glitter-compatible patterns
+→ System will generate harmonized descriptions
+
+For pattern-focused looks:
+→ Use traditional fabrics + traditional patterns
+→ Glitter becomes optional detail layer
+
+For balance:
+→ Mix approaches - some glitter, some pattern-only elements
+→ Both now coexist without logical conflict
+
+═══════════════════════════════════════════════════════════════════

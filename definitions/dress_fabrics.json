@@ -1,0 +1,122 @@
+{
+  "fabric.sequin_allover": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Full sequin coverage - maximum flash",
+    "contents": "FULL SEQUIN COVERAGE. Entire dress surface covered in overlapping sequins. Every movement creates flash and shimmer. Disco ball effect - reflects light in every direction. MAXIMUM SPARKLE.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.holographic_shift": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Holographic color-shift fabric",
+    "contents": "HOLOGRAPHIC FABRIC in DRESS COLOR. Surface shifts through lighter and darker variations of DRESS COLOR with iridescent shimmer at every angle. Prismatic sparkle overlaid on base color. MAXIMUM SHIMMER.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.crystal_encrusted": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Crystals covering entire surface",
+    "contents": "CRYSTAL-ENCRUSTED SURFACE. Rhinestones and crystals covering entire dress. Faceted stones catch light from every direction. Each crystal a point of brilliant sparkle. MAXIMUM JEWEL SHIMMER.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.mirror_foil": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Metallic mirror finish",
+    "contents": "MIRROR FOIL FABRIC. Metallic surface reflects like liquid metal. Chrome-bright finish catches every light source. Reflects surroundings in warped shine. MAXIMUM METALLIC GLEAM.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.glitter_tulle": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Glitter particles in sheer tulle",
+    "contents": "GLITTER TULLE. Sheer fabric embedded with dense glitter particles. Sparkle visible through transparent layers. Glitter catches light at every fold. Fairy dust shimmer throughout. MAXIMUM GLITTER.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.rhinestone_mesh": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Mesh covered in rhinestones",
+    "contents": "RHINESTONE MESH. Transparent mesh base completely covered in rhinestones. Grid of sparkling stones. Light hits create constellation effect. MAXIMUM STONE SPARKLE.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.holographic_sequin": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Sequins that shift colors",
+    "contents": "HOLOGRAPHIC SEQUINS. Color-shifting sequins covering surface in DRESS COLOR. Each sequin shifts through lighter and darker variations with iridescent shimmer. Double sparkle - sequin flash plus color shift. MAXIMUM SPARKLE.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.tinsel_knit": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Metallic tinsel threads throughout",
+    "contents": "TINSEL KNIT. Metallic lurex threads woven densely throughout fabric. Tinsel sparkle at every inch. Catches light like Christmas tree. MAXIMUM METALLIC THREAD SHIMMER.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.beaded_allover": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Beads and crystals sewn throughout",
+    "contents": "BEADED FABRIC. Seed beads and crystals sewn densely across entire surface. Beads catch light creating shimmer field. Weight creates fluid drape with sparkle. MAXIMUM BEAD SHIMMER.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.iridescent_organza": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Color-shifting sheer organza",
+    "contents": "IRIDESCENT ORGANZA. Sheer fabric in DRESS COLOR shifts through iridescent variations with light angle. Translucent shimmer with color play. Fairy wing iridescence. MAXIMUM COLOR-SHIFT SHEER.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.sparkle_velvet": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Velvet with glitter embedded",
+    "contents": "SPARKLE VELVET. Plush velvet surface embedded with glitter particles. Soft texture with sparkle throughout. Light catches glitter in velvet pile. MAXIMUM LUXE SHIMMER.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "fabric.disco_mirror": {
+    "domain": "DRESS",
+    "tier": 1,
+    "description": "Mirror tiles like disco ball",
+    "contents": "DISCO MIRROR FABRIC. Small reflective tiles covering surface like disco ball. Each tile reflects light independently. Creates prismatic light beams. MAXIMUM DISCO SPARKLE.",
+    "group": "fabric_shimmer",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium"
+  }
+}

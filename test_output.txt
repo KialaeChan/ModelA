@@ -1,0 +1,158 @@
+⚠ tiktoken not available - using math estimation (len // 4)
+  To use tiktoken: pip install tiktoken
+  Verify with: python -c "import tiktoken; print('tiktoken OK')"
+Generating prompt with coordinated ensemble theming...
+
+Loaded 520 atoms
+
+🎀 Ensemble Theme Selected: Gingham Tradition
+
+✓ Theme-locked slot 'theme_embellishment_primary': Found 6 theme atoms
+🎯 Primary embellishment selected: embellish.hand_pleated_micro_ruffle
+   Placement: circumference
+   Requires camera distance: full_body
+   🔒 DEBUG: Camera locked to MEDIUM for debugging
+   Distance-aware filtering active for ALL slots
+
+    ⚖️ Mutual exclusion resolved: 6 → 3 atoms for character.identity
+    ⚖️ Mutual exclusion resolved: 3 → 2 atoms for character.skin
+    🔍 Distance filter (medium): 3 → 2 atoms for character.face
+    🔍 Distance filter (medium): 6 → 3 atoms for character.makeup_comprehensive
+    🔍 Distance filter (medium): 29 → 26 atoms for expression.core
+    🔍 Distance filter (medium): 23 → 20 atoms for pose.stance
+    🔍 Distance filter (medium): 4 → 3 atoms for pose.timing
+    🔍 Distance filter (medium): 25 → 22 atoms for dress.pattern
+    🔍 Distance filter (medium): 29 → 18 atoms for dress.fabric
+    🔍 Distance filter (medium): 50 → 38 atoms for dress.embellishments
+    🔍 Distance filter (medium): 5 → 3 atoms for scene.room
+    🎥 Camera distance filter (medium): 5 → 2 cameras
+    🎯 Coordinating camera for circumference placement, needs full_body distance
+    📷 Found 2/2 suitable cameras
+    🔍 Distance filter (medium): 12 → 11 atoms for composition.flaws
+    🔍 Distance filter (medium): 2 → 1 atoms for character.age_safety_late
+    🔍 Distance filter (medium): 5 → 4 atoms for style.checkpoints
+═══ MANDATE CHECKPOINT REPORT ═══
+✓ Age Safety (Early): 2 atoms
+  • character.age_safety_explicit_adult
+  • character.adult_face_maturity
+✓ Age Safety (Late): 1 atoms
+  • character.adult_proportions_body
+✓ Dissonance: 2 atoms
+  • dissonance.dress_vs_environment
+  • dissonance.celebration_vs_extraction
+✓ Style Foundation: 7 atoms
+  • style.photorealism_base
+  • style.pastel_color_mandate
+  • style.sparkle_mandate
+  • style.core_unified
+  • style.core_contrast
+  • style.painted_surface_clear
+  • style.edge_quality
+
+✅ MANDATE CHECKPOINT: PASS - All critical atoms present
+
+🚨 DUPLICATE ATOM DETECTION
+────────────────────────────────────────────────────────────
+  ⚠️  style.edge_quality
+      Appears in: style.core_mandate, style.checkpoints
+
+  FIX GUIDANCE:
+  ─────────────
+  1. Check atom's 'group' field in definitions/*.json
+     - D0_Core atoms → should ONLY appear in 'dress.embellishments'
+     - D1_Architectural atoms → should ONLY appear in 'theme_embellishment_primary'
+  2. If group is correct, check camera.py filtering logic:
+     - Lines ~150-175: Group filters for each slot
+     - Verify slot_id matching is exact
+  3. Check layer_slot_schema.json for slot configuration
+     - Verify include_prefixes don't overlap
+  4. Run: python development_protocols.py for deeper analysis
+────────────────────────────────────────────────────────────
+
+Generated prompt: 4125 tokens (target: 3000)
+✓ Saved to prompt.txt
+⚠ Over budget by 1125 tokens
+
+╔════════════════════════════════════════════════════════════╗
+║          Running Integrated Analytics                      ║
+╚════════════════════════════════════════════════════════════╝
+
+╔════════════════════════════════════════════════════════════╗
+║           MODELА ANALYTICS REPORT                          ║
+╚════════════════════════════════════════════════════════════╝
+
+📊 TOKEN OVERVIEW
+────────────────────────────────────────────────────────────
+  Prompt Tokens:        4,125
+  Target:               3,000
+  Budget Status:        +1,125 ⚠️ OVER
+  Utilization:          137.5% of target
+
+📚 ATOM LIBRARY
+────────────────────────────────────────────────────────────
+  Total Atoms:          520
+  Total Atom Tokens:    20,329
+  Avg per Atom:         39.1 tokens
+
+🎯 PRIORITY BREAKDOWN
+────────────────────────────────────────────────────────────
+  P0: MANDATE      54 atoms,  3316 tokens ( 16.3%)
+  P1: CORE        345 atoms, 13293 tokens ( 65.4%)
+  P2: DETAIL      121 atoms,  3720 tokens ( 18.3%)
+
+🔝 HEAVIEST FILES
+────────────────────────────────────────────────────────────
+  shiny_embellishments.json                 3115 tokens (50 atoms)
+  makeup_application.json                   2132 tokens (44 atoms)
+  couture_construction.json                 1916 tokens (38 atoms)
+  expression_emotion.json                   1533 tokens (40 atoms)
+  hair_styling.json                         1305 tokens (36 atoms)
+
+⚠️  VIOLATIONS DETECTED
+────────────────────────────────────────────────────────────
+  Atoms over 100 tokens:  21
+    • character.identity_core                  109 tokens
+    • dress.neckline_high_standing_ruffle      115 tokens
+    • dress.neckline_peter_pan_lace            118 tokens
+  Atoms over 300 chars:   51
+  Narrative language:     2
+
+⚡ EFFICIENCY INSIGHTS
+────────────────────────────────────────────────────────────
+  Most token-dense atoms (good compression):
+    • hosiery.ruffle_ankle_white          0.250 tokens/char
+    • hosiery.bow_accent_white            0.250 tokens/char
+    • tailoring.lace_applique             0.250 tokens/char
+    • tailoring.lace_insertion            0.250 tokens/char
+    • tailoring.chantilly_overlay         0.250 tokens/char
+
+  Least efficient atoms (consider trimming):
+    • dress.color.aqua                    0.222 tokens/char - trim candidate
+    • dress.color.mint                    0.222 tokens/char - trim candidate
+    • dress.color.pink                    0.222 tokens/char - trim candidate
+    • dress.color.grey                    0.222 tokens/char - trim candidate
+    • dress.accent.periwinkle_v1          0.222 tokens/char - trim candidate
+
+════════════════════════════════════════════════════════════
+Report generated. Tiktoken available: False
+
+
+╔════════════════════════════════════════════════════════════╗
+║          Running Violation Analysis                        ║
+╚════════════════════════════════════════════════════════════╝
+
+⚠️  Found 57 violations:
+  • Narrative language: 4
+  • Filter-risk language: 2
+  • Character limit: 51
+✓ Detailed report saved to VIOLATION_DETAIL_REPORT.md
+
+
+Opening prompt.txt...
+/usr/bin/xdg-open: 882: www-browser: not found
+/usr/bin/xdg-open: 882: links2: not found
+/usr/bin/xdg-open: 882: elinks: not found
+/usr/bin/xdg-open: 882: links: not found
+/usr/bin/xdg-open: 882: lynx: not found
+/usr/bin/xdg-open: 882: w3m: not found
+xdg-open: no method available for opening '/home/claude/ModelA/prompt.txt'

@@ -1,0 +1,75 @@
+{
+  "last_updated": "2025-11-25T01:51:20.510585",
+  "total_generations": 7,
+  "tokens": {
+    "avg_prompt": 3896.7,
+    "min_prompt": 3613,
+    "max_prompt": 4504,
+    "over_budget_count": 7,
+    "over_budget_pct": 100.0
+  },
+  "camera_distribution": {
+    "medium": 7
+  },
+  "theme_distribution": {
+    "Lace Heirloom": 2,
+    "Crystalline Sparkle": 1,
+    "Romantic Floral": 1,
+    "Glitter Abundance": 1,
+    "Refined Elegance": 1,
+    "Bow Devotion": 1
+  },
+  "dress_color_distribution": {
+    "lavender": 2,
+    "peach": 1,
+    "powder": 1,
+    "periwinkle": 1,
+    "aqua": 1,
+    "orchid": 1
+  },
+  "accent_color_distribution": {
+    "pale": 2,
+    "mint": 1,
+    "lavender": 1,
+    "pink": 1,
+    "cream": 2
+  },
+  "primary_embellishment_distribution": {
+    "embellish.dimensional_lace_overlay_system": 2,
+    "embellish.double_shoulder_bow_massive": 2,
+    "embellish.standing_ruff_collar_tall": 2,
+    "embellish.wing_sleeve_projection": 1
+  },
+  "primary_placement_distribution": {
+    "bodice_center": 2,
+    "shoulder": 5
+  },
+  "violations": {
+    "avg_per_generation": 56.1,
+    "zero_violation_count": 0,
+    "by_type_totals": {
+      "narrative": 105,
+      "filter_risk": 0,
+      "character_limit": 288
+    }
+  },
+  "top_atoms": {
+    "character.age_safety_explicit_adult": 7,
+    "character.adult_face_maturity": 7,
+    "character.adult_proportions_body": 7,
+    "style.photorealism_base": 7,
+    "style.pastel_color_mandate": 7,
+    "style.sparkle_mandate": 7,
+    "style.core_unified": 7,
+    "style.core_contrast": 7,
+    "style.painted_surface_clear": 7,
+    "style.edge_quality": 7,
+    "dissonance.precious_vs_laboratory": 3,
+    "dissonance.celebration_vs_extraction": 3,
+    "dissonance.dress_shine_vs_grey": 2,
+    "dissonance.pose_strain_visible": 2,
+    "dissonance.beauty_vs_breakdown": 2,
+    "dissonance.dress_vs_environment": 2
+  },
+  "duplicate_frequency": 1.0
+}

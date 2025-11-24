@@ -1,0 +1,122 @@
+{
+  "hosiery.ruffle_ankle_white": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "White ruffle-trimmed ankle socks",
+    "contents": "Short white ankle socks with single gathered ruffle at cuff. Ruffle stands up around ankle. Cotton with elastic cuff beneath ruffle. Ends just above ankle bone.",
+    "group": "hosiery_choice",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "hosiery.lace_trim_cream": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "Cream socks with lace trim",
+    "contents": "Short cream-colored ankle socks with narrow lace trim at cuff. Delicate lace edge soft frill. Socks reach just above ankle. Simple sweet finish with feminine detail.",
+    "group": "hosiery_choice",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "hosiery.double_ruffle_pink": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "Pink socks with decorative ruffle - adult styling",
+    "contents": "Pastel pink ankle socks on adult feet with two stacked decorative ruffles at cuff. Fashion styling detail trim. Socks end at ankle on twenties-aged wearer. Adult-sized hosiery with decorative elements.",
+    "group": "hosiery_choice",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "hosiery.eyelet_trim_white": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "White socks with eyelet trim",
+    "contents": "White ankle socks with eyelet embroidered trim at cuff. Small punched holes with borders in decorative pattern. Socks reach just above ankle bone.",
+    "group": "hosiery_choice",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "hosiery.scallop_edge_ivory": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "Ivory socks with scalloped edge",
+    "contents": "Soft ivory ankle socks with scalloped edge at cuff. Rounded scallops gentle wave trim. Simple innocent finish. Socks end at ankle.",
+    "group": "hosiery_choice",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "hosiery.picot_edge_blush": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "Blush socks with picot edge",
+    "contents": "Pale blush pink ankle socks with tiny picot loops at cuff edge. Delicate trim soft texture. Socks reach just above ankle. Sweet minimal frill.",
+    "group": "hosiery_choice",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "hosiery.bow_accent_white": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "White socks with decorative bow - adult styling",
+    "contents": "White ankle socks on adult feet with small satin bow at outer ankle. Gentle ruffle at cuff. Adult-sized hosiery.",
+    "group": "hosiery_choice",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "hosiery.cable_knit_cream": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "Cream cable-knit ankle socks",
+    "contents": "Short cream ankle socks with subtle cable knit texture. Dimensional knit pattern gentle surface detail. Scalloped trim at cuff. Socks end at ankle. Cozy innocent texture.",
+    "group": "hosiery_choice",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "hosiery.ribbon_weave_pink": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "Pink socks with ribbon detail",
+    "contents": "Pastel pink ankle socks with narrow satin ribbon woven through cuff edge. Ribbon delicate trim accent. Small bow tied at outer ankle. Socks reach just above ankle bone. Sweet delicate detailing.",
+    "group": "hosiery_choice",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "hosiery.fold_cuff_white": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "White socks with fold-over cuff",
+    "contents": "White ankle socks with fold-over cuff double layer at top. Cuff folds down with gathered ruffle edge visible. Simple classic innocent styling. Socks end at ankle.",
+    "group": "hosiery_choice",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "footwear.mary_janes_accent": {
+    "domain": "ACCESSORIES",
+    "tier": 1,
+    "description": "Patent strap shoes matching accent color - adult footwear",
+    "contents": "Patent leather shoes matching attire accent color with single thin ankle strap on adult feet. Rounded toe box. Low stacked heel (15mm height). High-gloss patent finish with tight mirror speculars. Small decorative bow accent at vamp (2cm diameter). Adult-sized footwear for twenties-aged wearer.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "min_visible_distance": "full_body"
+  },
+  "footwear.rendering_patent": {
+    "domain": "ACCESSORIES",
+    "tier": 2,
+    "description": "Patent leather rendering",
+    "contents": "Patent leather rendered digitally with accurate glossy specular behavior and reflection properties.",
+    "group": "rendering_note",
+    "priority": "P1: CORE",
+    "random": false,
+    "min_visible_distance": "full_body"
+  }
+}

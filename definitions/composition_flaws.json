@@ -1,0 +1,136 @@
+{
+  "composition.hasty_centering": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Poor centering - rushed framing",
+    "contents": "Off-center placement.",
+    "group": "composition_flaw",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "composition.awkward_cropping": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Awkward crop boundaries",
+    "contents": "Awkward frame boundaries.",
+    "group": "composition_flaw",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "composition.tilted_horizon": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "focus held at careless tilt",
+    "contents": "focus held at 3-7deg tilt. Horizon slightly tilted. Floor lines diagonal. Casual careless tilt.",
+    "group": "anti_composition",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "composition.poor_headroom": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Poor headroom spacing",
+    "contents": "Either excessive empty space above head or head cramped near frame top. Spacing imbalanced. Head placement uncentered relative to frame edges.",
+    "group": "composition_flaw",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "composition.uneven_floor_tilt": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Floor plane tilted unevenly",
+    "contents": "Floor perspective uneven. Careless frame angle. Hasty handheld framing.",
+    "group": "composition_flaw",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "composition.environmental_clutter": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Background awkwardly positioned",
+    "contents": "Background equipment positioned awkwardly - jutting from subject or distracting tangents. viewer's didn't adjust angle to avoid clutter.",
+    "group": "composition_flaw",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "composition.snapshot_mentality": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Raw snapshot with no refinement",
+    "contents": "Pure snapshot - single quick exposure without adjustment. First-take accepted regardless of quality. No refinement. Utilitarian record over presentation.",
+    "group": "composition_flaw",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "composition.lazy_standing_position": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Framed from wherever viewer stood",
+    "contents": "Focus position lazy - framed from wherever viewer was standing. No effort to find better angle. Convenience over composition.",
+    "group": "composition_flaw",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "composition.subject_drastically_off_center": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Subject carelessly positioned - arbitrary placement",
+    "contents": "Subject positioned arbitrarily. Zero composition skill. Hasty amateur recording.",
+    "group": "anti_composition",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "composition.awkward_headroom": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Too much or too little space above head",
+    "contents": "Either massive empty space above head (30-40% of frame) or head cramped near top edge. Imbalanced vertical spacing. Awkward vertical framing.",
+    "group": "anti_composition",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "composition.background_clutter_intersects": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Background equipment intersecting subject awkwardly",
+    "contents": "Background equipment intersects subject awkwardly. Pole or table edge growing from head location. viewer's made no effort to shift angle for cleaner composition.",
+    "group": "anti_composition",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "composition.subject_partially_cropped": {
+    "domain": "COMPOSITION",
+    "tier": 1,
+    "description": "Subject awkwardly cut off at edges",
+    "contents": "Subject's arm or hand partially cut off by frame edge - viewer's didn't account for full gesture. Edge of dress clipped awkwardly. Careless.",
+    "group": "anti_composition",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "medium"
+  }
+}

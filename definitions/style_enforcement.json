@@ -1,0 +1,233 @@
+{
+  "style.unflattering_documentary": {
+    "domain": "STYLE",
+    "tier": 1,
+    "description": "Reinforcement: harsh unflattering documentary quality",
+    "contents": "UNFLATTERING DOCUMENTATION. NOT beauty photography, NOT portrait lighting, NOT flattering angles. Harsh clinical light reveals imperfections. Documentary capture under institutional fluorescents. Cruel overhead angle. Sharp direct light casting unflattering shadows. Candid snapshot quality - NOT posed glamour.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false
+  },
+  "style.photorealism_base": {
+    "domain": "STYLE",
+    "tier": 0,
+    "description": "CRITICAL: Manga painting style with sophisticated dimensional realism",
+    "contents": "MANGA PAINTING STYLE with sophisticated dimensional realism. Illustrated aesthetic rendering realistic lighting, materials, form, anatomy, surfaces. Visible painted manga style WITH strong dimensional realism - NOT photorealism, NOT photography, NOT flat stylized illustration. Manga illustration conventions achieving realistic dimensional volumes and lighting. Maintain stylistic consistency - manga features with painted technique throughout. NOT realistic western face with anime eyes. NOT photographic texture on stylized proportions. Facial features symmetrical in manga painting style.",
+    "group": "mandate",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.pastel_color_mandate": {
+    "domain": "STYLE",
+    "tier": 0,
+    "description": "CRITICAL: Colors appear vibrant and saturated against grey environment",
+    "contents": "Dress colors render saturated and luminous. Color saturation high. Colors stand visually distinct against institutional grey environment.",
+    "group": "mandate",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "far"
+  },
+  "style.sparkle_mandate": {
+    "domain": "STYLE",
+    "tier": 0,
+    "description": "CRITICAL: MAXIMUM SHINE - all shiny surfaces render BRIGHT sharp specular highlights",
+    "contents": "MAXIMUM SHINE ON ALL SURFACES. All shiny surfaces render EXTREMELY BRIGHT sharp specular highlights - pure white hot spots. Glitter particles, sequins, rhinestones, glossy lips, patent leather, liquid highlighter, hair all catch harsh overhead LED with intense mirror reflections. Wet glossy quality throughout. MOST SPECIAL PRINCESS aesthetic with MAXIMUM SHINE.",
+    "group": "mandate",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "far"
+  },
+  "style.core_unified": {
+    "domain": "STYLE",
+    "tier": 1,
+    "description": "Manga painter under harsh light",
+    "contents": "Manga painter technique under harsh bright overhead LED light. Bright white-blue light from directly above. Sharp downward shadows on face, neck, shoulders. Shadows underneath eyes, cheekbones, chin are deep and defined. SMOOTH painted dimensional form - NOT brushy, NOT textured strokes.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.core_contrast": {
+    "domain": "STYLE",
+    "tier": 1,
+    "description": "Realistic anatomy with sharp light-shadow contrast",
+    "contents": "Realistic anatomy with sharp light-shadow contrast. Form primarily defined by smooth COLOR and VALUE transitions. Clean painted surfaces as base. VISIBLE stylized manga linework on facial features - clear defined lines on eye outlines, upper and lower lash lines, eyelid creases, lip edges, nose bridge. Manga-style line definition visible and readable, NOT subtle hints. Lines give features clear graphic definition while maintaining painted base. Dimensional form through harsh overhead lighting and smooth painted color shifts enhanced by visible linework.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.painted_surface_clear": {
+    "domain": "STYLE",
+    "tier": 1,
+    "description": "Sharp institutional lighting with deep defined shadows",
+    "contents": "Bright white-blue overhead light creating sharp defined shadows. Deep shadows beneath eyes, cheekbones, chin, torso. White-blue color temperature - no green cast. High contrast. Dimensional form through shadow work.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.edge_quality": {
+    "domain": "STYLE",
+    "tier": 1,
+    "description": "Sharp edges from harsh light creating defined shadow boundaries",
+    "contents": "Form defined by SMOOTH PAINTED COLOR SHIFTS where light meets shadow. Clean color transitions under harsh light as primary technique. VISIBLE manga-style linework on key facial features - eye outlines, lash lines, eyelid creases, lip edges clearly defined with lines. Readable stylized lines for graphic definition. Smooth painted illustration aesthetic with visible accent lines. Clean gradual value changes define form.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.skin_rendering": {
+    "tier": 2,
+    "description": "Clean skin rendering with sharp overhead shadow definition",
+    "contents": "Skin rendered with clean blended technique. Bright white-blue institutional light creating sharp shadow definition. Deep shadows under eyes, cheekbones, chin revealing form. Pale quality visible. No green cast.",
+    "group": "style_checkpoint",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.hair_rendering": {
+    "domain": "STYLE",
+    "tier": 2,
+    "description": "Hair with sharp overhead shadow definition",
+    "contents": "Hair rendered with smooth blended illustration. Bright white-blue light creating sharp shadow definition. Dimensional form through light contrast. Clean rendered finish.",
+    "group": "style_checkpoint",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.fabric_rendering": {
+    "domain": "STYLE",
+    "tier": 2,
+    "description": "Fabric with material properties under bright institutional light",
+    "contents": "Fabric rendered showing material weight and drape. Bright white-blue overhead light reflecting off embellishments creating shimmer. Dress stands out in clear contrast against laboratory environment.",
+    "group": "style_checkpoint",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.clean_digital_technique": {
+    "domain": "STYLE",
+    "tier": 2,
+    "description": "Manga painter with harsh overhead light rendering",
+    "contents": "Realistic proportions with sharp light-shadow contrast. Deep shadow areas and bright highlights create dimensional form.",
+    "group": "style_technical",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.illustration_clarity": {
+    "domain": "STYLE",
+    "tier": 1,
+    "description": "Manga painter clarity under harsh light",
+    "contents": "Sharp light-shadow contrast reveals realistic form. Bright white-blue light creating sharp shadow separation. Dimensional depth through harsh contrast.",
+    "group": "style_dimensional",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.environmental_realism": {
+    "domain": "STYLE",
+    "tier": 2,
+    "description": "Institutional environment with spatial complexity",
+    "contents": "Digital environment with spatial depth. Institutional space with grey walls and floor. Cold grey institutional walls and floor. Facility aesthetic with dimensional space.",
+    "group": "style_technical",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.dimensional_final": {
+    "domain": "STYLE",
+    "tier": 1,
+    "description": "Final style: manga painter with sharp light-shadow contrast",
+    "contents": "Sharp light-shadow contrast. Shadows cast downward. Smooth painted surfaces - NOT brushy watercolor, NOT cel-shading, NOT linework. Saturated vibrant colors against desaturated grey environment. Painted image with documentary subject matter. High saturation pops dramatically.",
+    "group": "style_closing",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.value_modeling_clear": {
+    "domain": "STYLE",
+    "tier": 1,
+    "description": "Value separation through sharp shadows and bright light",
+    "contents": "Value separation defines form through bright light and sharp shadows. Strong shadow definition creating dimensional volumes. High-contrast technical effect. Clean rendering.",
+    "group": "style_closing",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.institutional_light_facial_shadows": {
+    "domain": "STYLE",
+    "tier": 2,
+    "description": "White-blue institutional light creates heavy shadow gradients on face",
+    "contents": "White-blue institutional light from overhead (not greenish, not warm). Heavy shadow gradients beneath cheekbones, jaw, eyes. Dark shadows in eye sockets. Temple shadows visible. Value contrast reveals facial planes.",
+    "group": "style_technical",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.skin_realism": {
+    "domain": "STYLE",
+    "tier": 2,
+    "description": "Skin texture and realism checkpoint",
+    "contents": "Skin painted with realistic texture detail. Realistic skin behavior painted convincingly. Makeup visible as applied layers on realistic skin surface.",
+    "group": "style_checkpoint",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.fabric_realism": {
+    "domain": "STYLE",
+    "tier": 2,
+    "description": "Fabric material properties checkpoint",
+    "contents": "Fabric painted with realistic material properties. Silk drapes with weight and gravity. Fabric reflects light realistically. Embellishments catch light with specular highlights.",
+    "group": "style_checkpoint",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.hair_realism": {
+    "domain": "STYLE",
+    "tier": 2,
+    "description": "Hair rendering realism checkpoint",
+    "contents": "Hair painted as individual strands with realistic volume and weight. Hair behaves with gravity and movement. Roots visible where stated. Light refracts realistically through hair.",
+    "group": "style_checkpoint",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "style.material_properties": {
+    "domain": "STYLE",
+    "tier": 2,
+    "description": "Material rendering - shoes, accessories checkpoint",
+    "contents": "Patent leather shoes painted with glossy specular highlights and accurate reflections. Metal trim catches light realistically. Hosiery fabric drapes naturally. All materials show realistic light behavior.",
+    "group": "style_checkpoint",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "camera.angle_medium_full_body_detail": {
+    "domain": "CAMERA",
+    "tier": 1,
+    "description": "Medium distance full body with visible details",
+    "contents": "6-7 feet distance. Full body head to feet, subject 75-85% frame height. Face and dress details clearly readable. Makeup, embellishments, complete silhouette visible. Floor lower 30%. 30-45deg oblique.",
+    "group": "camera_distance_variants",
+    "priority": "P2: DETAIL",
+    "random": false,
+    "requires": [],
+    "excludes": [],
+    "reveals": [
+      "front",
+      "side",
+      "back",
+      "hem"
+    ],
+    "viewing_angle": "front",
+    "distance": "full_body"
+  },
+  "camera.angle_three_quarter_elevated": {
+    "domain": "CAMERA",
+    "tier": 1,
+    "description": "Elevated three-quarter view with detail visibility",
+    "contents": "MEDIUM UPPER-BODY FRAMING. Frame includes: complete head, full shoulders and torso, bodice, waist, upper skirt. Bottom of frame CUTS at mid-skirt (hip level). Subject fills 60-70% of vertical frame. Three-quarter view (35-50deg body angle) from elevated overhead angle. Face from above: makeup detail readable. Bodice, sleeves, waist, upper skirt tiers sharp and visible.",
+    "group": "camera_distance_variants",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "reveals": [
+      "front",
+      "side",
+      "shoulder"
+    ],
+    "viewing_angle": "three-quarter",
+    "distance": "medium"
+  },
+  "camera.angle_elevated_quarter_turn": {
+    "domain": "CAMERA",
+    "tier": 1,
+    "description": "Elevated angle with subject in quarter turn",
+    "contents": "MEDIUM UPPER-BODY FRAMING. Frame includes: complete head, full shoulders and torso, bodice, waist, upper skirt. Bottom of frame CUTS at mid-skirt (hip level). Subject caught mid-turn at 45deg angle filling 60-70% of vertical frame. Face in three-quarter view from elevated overhead: mascara, blush, lip color readable. Upper body and bodice prominent in frame.",
+    "group": "camera_distance_variants",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "reveals": [
+      "front",
+      "side",
+      "diagonal_side"
+    ],
+    "viewing_angle": "three-quarter",
+    "distance": "medium"
+  },
+  "camera.angle_medium_overhead_full": {
+    "domain": "CAMERA",
+    "tier": 1,
+    "description": "Medium overhead full body with detail emphasis",
+    "contents": "6-8 feet distance. Full body head to feet, subject 75-80% frame. Makeup application, hair details, dress embellishments readable. Floor lower third. 30-45deg oblique.",
+    "group": "camera_distance_variants",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "reveals": [
+      "front",
+      "hem",
+      "skirt",
+      "circumference"
+    ],
+    "viewing_angle": "front",
+    "distance": "full_body"
+  },
+  "camera.angle_embellishment_showcase": {
+    "domain": "CAMERA",
+    "tier": 1,
+    "description": "Angle optimized for embellishment visibility",
+    "contents": "7-8 feet distance. Full body positioning with elevated angle. Dress and embellishments in frame.",
+    "group": "camera_distance_variants",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "theme_tags": [
+      "embellishment",
+      "architectural",
+      "silhouette"
+    ],
+    "excludes": [],
+    "reveals": [
+      "front",
+      "bodice_center",
+      "shoulder",
+      "diagonal_side"
+    ],
+    "viewing_angle": "front",
+    "distance": "full_body"
+  }
+}

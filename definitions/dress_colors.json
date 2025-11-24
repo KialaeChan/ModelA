@@ -1,0 +1,587 @@
+{
+  "dress.most_special_ever_mandate": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "MANDATORY: MOST SPECIAL DRESS EVER - maximum embellishment",
+    "contents": "MOST SPECIAL DRESS EVER - maximum embellishment coverage. Densely covered with layers, sparkle, bows, trim throughout entire dress. Multiple embellishment types visible. Exceptional density.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.white": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "White dress",
+    "contents": "white",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.lavender": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Lavender dress",
+    "contents": "lavender",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.periwinkle": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Periwinkle dress",
+    "contents": "periwinkle",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.powder_blue": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Powder blue dress",
+    "contents": "powder blue",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.aqua": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Aqua dress",
+    "contents": "aqua",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.mint": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Mint dress",
+    "contents": "mint",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.seafoam": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Seafoam dress",
+    "contents": "seafoam",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.orchid": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Orchid dress",
+    "contents": "orchid",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.pink": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Pink dress",
+    "contents": "pink",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.pale_yellow": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Pale yellow dress",
+    "contents": "pale yellow",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.peach": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Peach dress",
+    "contents": "peach",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.color.cream": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Cream dress",
+    "contents": "cream",
+    "group": "dress_color_primary",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "dress.accent.white": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for white primary",
+    "contents": "lavender",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.white"
+    ],
+    "excludes": []
+  },
+  "dress.accent.lavender_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for lavender primary",
+    "contents": "powder blue",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.lavender"
+    ],
+    "excludes": []
+  },
+  "dress.accent.lavender_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for lavender primary",
+    "contents": "pale yellow",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.lavender"
+    ],
+    "excludes": []
+  },
+  "dress.accent.lavender_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for lavender primary",
+    "contents": "mint",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.lavender"
+    ],
+    "excludes": []
+  },
+  "dress.accent.periwinkle_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for periwinkle primary",
+    "contents": "cream",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.periwinkle"
+    ],
+    "excludes": []
+  },
+  "dress.accent.periwinkle_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for periwinkle primary",
+    "contents": "pink",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.periwinkle"
+    ],
+    "excludes": []
+  },
+  "dress.accent.periwinkle_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for periwinkle primary",
+    "contents": "pale yellow",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.periwinkle"
+    ],
+    "excludes": []
+  },
+  "dress.accent.powder_blue_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for powder blue primary",
+    "contents": "peach",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.powder_blue"
+    ],
+    "excludes": []
+  },
+  "dress.accent.powder_blue_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for powder blue primary",
+    "contents": "lavender",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.powder_blue"
+    ],
+    "excludes": []
+  },
+  "dress.accent.powder_blue_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for powder blue primary",
+    "contents": "pink",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.powder_blue"
+    ],
+    "excludes": []
+  },
+  "dress.accent.aqua_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for aqua primary",
+    "contents": "pale yellow",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.aqua"
+    ],
+    "excludes": []
+  },
+  "dress.accent.aqua_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for aqua primary",
+    "contents": "cream",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.aqua"
+    ],
+    "excludes": []
+  },
+  "dress.accent.aqua_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for aqua primary",
+    "contents": "orchid",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.aqua"
+    ],
+    "excludes": []
+  },
+  "dress.accent.mint_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for mint primary",
+    "contents": "pink",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.mint"
+    ],
+    "excludes": []
+  },
+  "dress.accent.mint_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for mint primary",
+    "contents": "peach",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.mint"
+    ],
+    "excludes": []
+  },
+  "dress.accent.mint_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for mint primary",
+    "contents": "cream",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.mint"
+    ],
+    "excludes": []
+  },
+  "dress.accent.seafoam_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for seafoam primary",
+    "contents": "pale yellow",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.seafoam"
+    ],
+    "excludes": []
+  },
+  "dress.accent.seafoam_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for seafoam primary",
+    "contents": "peach",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.seafoam"
+    ],
+    "excludes": []
+  },
+  "dress.accent.seafoam_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for seafoam primary",
+    "contents": "orchid",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.seafoam"
+    ],
+    "excludes": []
+  },
+  "dress.accent.orchid_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for orchid primary",
+    "contents": "cream",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.orchid"
+    ],
+    "excludes": []
+  },
+  "dress.accent.orchid_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for orchid primary",
+    "contents": "pale yellow",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.orchid"
+    ],
+    "excludes": []
+  },
+  "dress.accent.orchid_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for orchid primary",
+    "contents": "mint",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.orchid"
+    ],
+    "excludes": []
+  },
+  "dress.accent.pink_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for pink primary",
+    "contents": "powder blue",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.pink"
+    ],
+    "excludes": []
+  },
+  "dress.accent.pink_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for pink primary",
+    "contents": "pale yellow",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.pink"
+    ],
+    "excludes": []
+  },
+  "dress.accent.pink_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for pink primary",
+    "contents": "mint",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.pink"
+    ],
+    "excludes": []
+  },
+  "dress.accent.pale_yellow_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for pale yellow primary",
+    "contents": "lavender",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.pale_yellow"
+    ],
+    "excludes": []
+  },
+  "dress.accent.pale_yellow_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for pale yellow primary",
+    "contents": "powder blue",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.pale_yellow"
+    ],
+    "excludes": []
+  },
+  "dress.accent.pale_yellow_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for pale yellow primary",
+    "contents": "aqua",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.pale_yellow"
+    ],
+    "excludes": []
+  },
+  "dress.accent.peach_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for peach primary",
+    "contents": "powder blue",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.peach"
+    ],
+    "excludes": []
+  },
+  "dress.accent.peach_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for peach primary",
+    "contents": "mint",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.peach"
+    ],
+    "excludes": []
+  },
+  "dress.accent.peach_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for peach primary",
+    "contents": "lavender",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.peach"
+    ],
+    "excludes": []
+  },
+  "dress.accent.cream_v1": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for cream primary",
+    "contents": "orchid",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.cream"
+    ],
+    "excludes": []
+  },
+  "dress.accent.cream_v2": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for cream primary",
+    "contents": "powder blue",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.cream"
+    ],
+    "excludes": []
+  },
+  "dress.accent.cream_v3": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Accent for cream primary",
+    "contents": "mint",
+    "group": "dress_color_accent",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "dress.color.cream"
+    ],
+    "excludes": []
+  }
+}

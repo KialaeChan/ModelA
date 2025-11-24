@@ -1,0 +1,200 @@
+{
+  "tailoring.lace_applique": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Lace applique technique - motifs applied to surface",
+    "contents": "Individual lace motifs on bodice and skirt surfaces.",
+    "group": "lace_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.lace_insertion": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Lace insertion bands - inset between fabric sections",
+    "contents": "Narrow lace bands (8-15mm) inserted between fabric sections as decorative divider lines.",
+    "group": "lace_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.chantilly_overlay": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Chantilly lace overlay - delicate all-over pattern",
+    "contents": "Delicate floral lace across bodice or skirt as overlay. Fine bobbin lace with scrolling pattern.",
+    "group": "lace_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.guipure_motifs": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Guipure lace - dense raised pattern",
+    "contents": "Heavy raised lace with bold floral or geometric motifs connected by thread bridges. Dense sculptural texture.",
+    "group": "lace_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.eyelet_embroidery": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Eyelet embroidery - punched and stitched holes",
+    "contents": "Small holes with dense satin stitch borders.",
+    "group": "lace_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.smocking_geometric": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Geometric smocking - structured gathered texture",
+    "contents": "Gathered in controlled grid pattern - honeycomb or diamond texture.",
+    "group": "tailoring_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.pintucks_precision": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Precision pintucks - narrow parallel folds",
+    "contents": "Very narrow parallel folds (1-3mm width) creating raised linear texture.",
+    "group": "tailoring_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.fagoting_openwork": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Fagoting - decorative open seaming",
+    "contents": "Two edges held apart with decorative hand stitching creating openwork band.",
+    "group": "tailoring_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.drawn_thread": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Drawn thread work - pulled fabric creating voids",
+    "contents": "Horizontal or vertical threads removed creating linear voids. Remaining threads bundled with stitching.",
+    "group": "tailoring_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.french_seams": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "French seams - enclosed finishing",
+    "contents": "Seam allowances completely enclosed. Clean finished interior.",
+    "group": "tailoring_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.bound_buttonholes": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Bound buttonholes - fabric-bound opening",
+    "contents": "Opening edges bound with narrow strips creating rectangular window.",
+    "group": "tailoring_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.hong_kong_finish": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Hong Kong seam finish - bias-bound raw edges",
+    "contents": "Interior seam allowances bound with narrow bias tape.",
+    "group": "tailoring_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.hand_rolled_edges": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Hand-rolled edges - tiny rolled hem",
+    "contents": "Edge rolled extremely fine (1-2mm) with invisible stitching. Delicate finished edge on sheer fabrics.",
+    "group": "tailoring_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.shell_edging": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Shell edging - scalloped decorative border",
+    "contents": "Scalloped edge with decorative detail.",
+    "group": "tailoring_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.cording_piping": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Corded piping - dimensional raised edge",
+    "contents": "Cord encased in bias tape as raised trim.",
+    "group": "tailoring_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.gathered_lace_ruffle": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Gathered lace ruffle - dimensional trim",
+    "contents": "Lace strip gathered densely and as trim.",
+    "group": "lace_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.venice_lace_motifs": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Venice lace - heavy raised needle lace",
+    "contents": "Heavy raised needle lace with sculptural floral motifs.",
+    "group": "lace_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "tailoring.cut_work_embroidery": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Cutwork embroidery - fabric removed creating voids",
+    "contents": "Areas cut away with dense stitching reinforcing edges creating voids.",
+    "group": "lace_technique",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  }
+}

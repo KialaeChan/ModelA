@@ -1,0 +1,74 @@
+{
+  "dress.skirt_maximum_puff_gathered": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "MAXIMUM puff - extreme gathered fullness, very short",
+    "contents": "CRITICAL: Skirt EXTREMELY SHORT - iliac crest or above - at fingertip level. Hem well above knee. Skirt puffs out EXTREMELY WIDE - extends 20-30cm horizontally from body.",
+    "group": "skirt_ultra_puff",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "dress.skirt_eight_tier_super_ruffle": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "EIGHT tier ruffle - maximum horizontal volume, very short",
+    "contents": "CRITICAL: Skirt EXTREMELY SHORT - iliac crest or above - at fingertip level. Eight horizontal ruffle tiers stacked high to low. Each tier 8-10cm wide dramatic ruffle. Skirt extends 20-30cm wide horizontally from body at widest point. Tiers create continuous stacked puff.",
+    "group": "skirt_ultra_puff",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "dress.skirt_double_circle_ultra_gathered": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Double circle skirt - extreme fullness, very short length",
+    "contents": "CRITICAL: Skirt EXTREMELY SHORT - iliac crest or above - at fingertip level. Skirt from TWO full circle patterns (double circle). Massive puff when gathered. Extends 20-30cm horizontally wide. Gathered at high waist.",
+    "group": "skirt_ultra_puff",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "dress.skirt_cloud_tulle_explosion": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "MAXIMUM tulle cloud - architectural volume, very short",
+    "contents": "CRITICAL: Skirt EXTREMELY SHORT - iliac crest or above - at fingertip level. Skirt from 12-16 layers gathered tulle creating ENORMOUS architectural cloud. Extends 20-30cm wide horizontally. Gathered high at waist.",
+    "group": "skirt_ultra_puff",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "dress.skirt_triple_layer_mega_puff": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "THREE skirt layers - maximum compound volume, very short",
+    "contents": "CRITICAL: Skirt EXTREMELY SHORT - iliac crest or above - at fingertip level. THREE separate skirt layers creating compound mega puff. Extends 20-30cm wide horizontally from body.",
+    "group": "skirt_ultra_puff",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "dress.skirt_wide_tier_maximum": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Six EXTRA-WIDE ruffle tiers - extreme width, very short",
+    "contents": "CRITICAL: Skirt EXTREMELY SHORT - iliac crest or above - at fingertip level. Six extra-wide ruffle tiers. Each tier 10-12cm wide. Skirt extends 20-30cm wide horizontally from body. Tiers create stacked extremely wide puff silhouette.",
+    "group": "skirt_ultra_puff",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  }
+}

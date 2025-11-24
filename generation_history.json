@@ -1,0 +1,625 @@
+[
+  {
+    "timestamp": "2025-11-24T06:17:52.138995",
+    "generation_id": "20251124_061752_139009",
+    "tokens": {
+      "prompt": 4504,
+      "target": 3000,
+      "delta": 1504,
+      "utilization_pct": 150.1,
+      "over_budget": true
+    },
+    "camera": {
+      "distance": "medium"
+    },
+    "theme": {
+      "name": "Crystalline Sparkle",
+      "atom_key": "ensemble.crystalline_sparkle"
+    },
+    "primary_embellishment": {
+      "key": "embellish.dimensional_lace_overlay_system",
+      "placement": "bodice_center"
+    },
+    "colors": {
+      "dress": "lavender",
+      "accent": "pale"
+    },
+    "atoms_selected": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.dress_shine_vs_grey",
+        "dissonance.pose_strain_visible"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "total_atoms_selected": 12,
+    "violations": {
+      "total": 57,
+      "by_type": {
+        "narrative": 15,
+        "filter_risk": 0,
+        "character_limit": 42
+      }
+    },
+    "checkpoints": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.dress_shine_vs_grey",
+        "dissonance.pose_strain_visible"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "duplicates": {
+      "count": 1,
+      "atoms": {
+        "style.edge_quality": [
+          "style.core_mandate",
+          "style.checkpoints"
+        ]
+      }
+    },
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-11-24T06:21:04.496792",
+    "generation_id": "20251124_062104_496806",
+    "tokens": {
+      "prompt": 4406,
+      "target": 3000,
+      "delta": 1406,
+      "utilization_pct": 146.9,
+      "over_budget": true
+    },
+    "camera": {
+      "distance": "medium"
+    },
+    "theme": {
+      "name": "Romantic Floral",
+      "atom_key": "ensemble.romantic_floral"
+    },
+    "primary_embellishment": {
+      "key": "embellish.double_shoulder_bow_massive",
+      "placement": "shoulder"
+    },
+    "colors": {
+      "dress": "peach",
+      "accent": "mint"
+    },
+    "atoms_selected": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.precious_vs_laboratory",
+        "dissonance.celebration_vs_extraction"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "total_atoms_selected": 12,
+    "violations": {
+      "total": 56,
+      "by_type": {
+        "narrative": 15,
+        "filter_risk": 0,
+        "character_limit": 41
+      }
+    },
+    "checkpoints": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.precious_vs_laboratory",
+        "dissonance.celebration_vs_extraction"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "duplicates": {
+      "count": 1,
+      "atoms": {
+        "style.edge_quality": [
+          "style.core_mandate",
+          "style.checkpoints"
+        ]
+      }
+    },
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-11-24T17:48:53.613090",
+    "generation_id": "20251124_174853_613114",
+    "tokens": {
+      "prompt": 3688,
+      "target": 3000,
+      "delta": 688,
+      "utilization_pct": 122.9,
+      "over_budget": true
+    },
+    "camera": {
+      "distance": "medium"
+    },
+    "theme": {
+      "name": "Lace Heirloom",
+      "atom_key": "ensemble.lace_heirloom"
+    },
+    "primary_embellishment": {
+      "key": "embellish.standing_ruff_collar_tall",
+      "placement": "shoulder"
+    },
+    "colors": {
+      "dress": "powder",
+      "accent": "lavender"
+    },
+    "atoms_selected": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.beauty_vs_breakdown",
+        "dissonance.dress_vs_environment"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "total_atoms_selected": 12,
+    "violations": {
+      "total": 56,
+      "by_type": {
+        "narrative": 15,
+        "filter_risk": 0,
+        "character_limit": 41
+      }
+    },
+    "checkpoints": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.beauty_vs_breakdown",
+        "dissonance.dress_vs_environment"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "duplicates": {
+      "count": 1,
+      "atoms": {
+        "style.edge_quality": [
+          "style.core_mandate",
+          "style.checkpoints"
+        ]
+      }
+    },
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-11-24T17:51:51.781313",
+    "generation_id": "20251124_175151_781338",
+    "tokens": {
+      "prompt": 3644,
+      "target": 3000,
+      "delta": 644,
+      "utilization_pct": 121.5,
+      "over_budget": true
+    },
+    "camera": {
+      "distance": "medium"
+    },
+    "theme": {
+      "name": "Glitter Abundance",
+      "atom_key": "ensemble.glitter_abundance"
+    },
+    "primary_embellishment": {
+      "key": "embellish.wing_sleeve_projection",
+      "placement": "shoulder"
+    },
+    "colors": {
+      "dress": "lavender",
+      "accent": "pale"
+    },
+    "atoms_selected": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.precious_vs_laboratory",
+        "dissonance.celebration_vs_extraction"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "total_atoms_selected": 12,
+    "violations": {
+      "total": 56,
+      "by_type": {
+        "narrative": 15,
+        "filter_risk": 0,
+        "character_limit": 41
+      }
+    },
+    "checkpoints": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.precious_vs_laboratory",
+        "dissonance.celebration_vs_extraction"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "duplicates": {
+      "count": 1,
+      "atoms": {
+        "style.edge_quality": [
+          "style.core_mandate",
+          "style.checkpoints"
+        ]
+      }
+    },
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-11-24T19:17:21.446905",
+    "generation_id": "20251124_191721_446948",
+    "tokens": {
+      "prompt": 3689,
+      "target": 3000,
+      "delta": 689,
+      "utilization_pct": 123.0,
+      "over_budget": true
+    },
+    "camera": {
+      "distance": "medium"
+    },
+    "theme": {
+      "name": "Refined Elegance",
+      "atom_key": "ensemble.refined_elegance"
+    },
+    "primary_embellishment": {
+      "key": "embellish.standing_ruff_collar_tall",
+      "placement": "shoulder"
+    },
+    "colors": {
+      "dress": "periwinkle",
+      "accent": "pink"
+    },
+    "atoms_selected": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.beauty_vs_breakdown",
+        "dissonance.dress_vs_environment"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "total_atoms_selected": 12,
+    "violations": {
+      "total": 56,
+      "by_type": {
+        "narrative": 15,
+        "filter_risk": 0,
+        "character_limit": 41
+      }
+    },
+    "checkpoints": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.beauty_vs_breakdown",
+        "dissonance.dress_vs_environment"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "duplicates": {
+      "count": 1,
+      "atoms": {
+        "style.edge_quality": [
+          "style.core_mandate",
+          "style.checkpoints"
+        ]
+      }
+    },
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-11-24T19:21:36.725416",
+    "generation_id": "20251124_192136_725467",
+    "tokens": {
+      "prompt": 3733,
+      "target": 3000,
+      "delta": 733,
+      "utilization_pct": 124.4,
+      "over_budget": true
+    },
+    "camera": {
+      "distance": "medium"
+    },
+    "theme": {
+      "name": "Bow Devotion",
+      "atom_key": "ensemble.bow_devotion"
+    },
+    "primary_embellishment": {
+      "key": "embellish.double_shoulder_bow_massive",
+      "placement": "shoulder"
+    },
+    "colors": {
+      "dress": "aqua",
+      "accent": "cream"
+    },
+    "atoms_selected": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.precious_vs_laboratory",
+        "dissonance.dress_shine_vs_grey"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "total_atoms_selected": 12,
+    "violations": {
+      "total": 56,
+      "by_type": {
+        "narrative": 15,
+        "filter_risk": 0,
+        "character_limit": 41
+      }
+    },
+    "checkpoints": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.precious_vs_laboratory",
+        "dissonance.dress_shine_vs_grey"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "duplicates": {
+      "count": 1,
+      "atoms": {
+        "style.edge_quality": [
+          "style.core_mandate",
+          "style.checkpoints"
+        ]
+      }
+    },
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-11-25T01:51:20.500165",
+    "generation_id": "20251125_015120_500189",
+    "tokens": {
+      "prompt": 3613,
+      "target": 3000,
+      "delta": 613,
+      "utilization_pct": 120.4,
+      "over_budget": true
+    },
+    "camera": {
+      "distance": "medium"
+    },
+    "theme": {
+      "name": "Lace Heirloom",
+      "atom_key": "ensemble.lace_heirloom"
+    },
+    "primary_embellishment": {
+      "key": "embellish.dimensional_lace_overlay_system",
+      "placement": "bodice_center"
+    },
+    "colors": {
+      "dress": "orchid",
+      "accent": "cream"
+    },
+    "atoms_selected": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.celebration_vs_extraction",
+        "dissonance.pose_strain_visible"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "total_atoms_selected": 12,
+    "violations": {
+      "total": 56,
+      "by_type": {
+        "narrative": 15,
+        "filter_risk": 0,
+        "character_limit": 41
+      }
+    },
+    "checkpoints": {
+      "age_safety_early": [
+        "character.age_safety_explicit_adult",
+        "character.adult_face_maturity"
+      ],
+      "age_safety_late": [
+        "character.adult_proportions_body"
+      ],
+      "dissonance": [
+        "dissonance.celebration_vs_extraction",
+        "dissonance.pose_strain_visible"
+      ],
+      "style_foundation": [
+        "style.photorealism_base",
+        "style.pastel_color_mandate",
+        "style.sparkle_mandate",
+        "style.core_unified",
+        "style.core_contrast",
+        "style.painted_surface_clear",
+        "style.edge_quality"
+      ]
+    },
+    "duplicates": {
+      "count": 1,
+      "atoms": {
+        "style.edge_quality": [
+          "style.core_mandate",
+          "style.checkpoints"
+        ]
+      }
+    },
+    "metadata": {}
+  }
+]

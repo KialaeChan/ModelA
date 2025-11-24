@@ -1,0 +1,431 @@
+{
+  "dress_ensemble_system": {
+    "description": "Eight thematic ensembles. Each pools compatible embellishments, frills, hair, and hosiery. System picks randomly from pools for infinite coherent variety within theme.",
+    "usage": "Generator selects ONE ensemble. Then picks randomly from each pool. Combinations are always thematically harmonious.",
+    "philosophy": "Thematic coherence through compatible pools, not fixed prescriptions. Every combination sings together.",
+    "excludes": [],
+    "contents": "",
+    "pattern_pool": [
+      "dress.pattern.glittered_dots",
+      "dress.pattern.glittered_florals",
+      "dress.pattern.glitter_hearts",
+      "dress.pattern.sequin_stars",
+      "dress.pattern.holographic_rainbow"
+    ]
+  },
+  "ensemble.crystalline_sparkle": {
+    "domain": "ENSEMBLE",
+    "tier": 1,
+    "description": "Maximum light-catching brilliance. Every surface refracts. Fairy-tale crystalline.",
+    "contents": "Crystalline fairy tale. Maximum sparkle and light refraction.",
+    "group": "ensemble_complete",
+    "priority": "P1: CORE",
+    "random": true,
+    "theme": "crystalline_sparkle",
+    "embellishment_pool": [
+      "embellish.dimensional_lace_overlay_system",
+      "embellish.wing_sleeve_projection",
+      "embellish.standing_ruff_collar_tall"
+    ],
+    "pattern_pool": [
+      "dress.pattern.crystal_snowflakes",
+      "dress.pattern.rhinestone_crowns",
+      "dress.pattern.sequin_stars"
+    ],
+    "fabric_pool": [
+      "fabric.organza_silk",
+      "fabric.point_esprit",
+      "fabric.metallic_organza"
+    ],
+    "tailoring_pool": [
+      "tailoring.cording_piping",
+      "tailoring.bound_buttonholes",
+      "tailoring.french_seams"
+    ],
+    "hair_accessory_pool": [
+      "hair.accessory.glitter_clips_allover",
+      "hair.accessory.bobby_pins_decorative",
+      "hair.accessory.pearl_strand_band"
+    ],
+    "hosiery_pool": [
+      "hosiery.picot_edge_blush",
+      "hosiery.scallop_edge_ivory",
+      "hosiery.eyelet_trim_white",
+      "hosiery.bow_accent_white"
+    ],
+    "requires": [],
+    "excludes": [],
+    "embellishment_focus": [
+      "crystalline",
+      "sparkle",
+      "luminous"
+    ]
+  },
+  "ensemble.romantic_floral": {
+    "domain": "ENSEMBLE",
+    "tier": 1,
+    "description": "Garden elegance. Dimensional flowers, soft curves, romantic layering.",
+    "contents": "Romantic floral. Dimensional roses and soft florals.",
+    "group": "ensemble_complete",
+    "priority": "P1: CORE",
+    "random": true,
+    "theme": "romantic_floral",
+    "embellishment_pool": [
+      "embellish.dimensional_lace_overlay_system",
+      "embellish.standing_ruff_collar_tall",
+      "embellish.tiered_ruffle_stack_wide"
+    ],
+    "pattern_pool": [
+      "dress.pattern.glittered_dots",
+      "dress.pattern.glittered_florals",
+      "dress.pattern.glitter_hearts",
+      "dress.pattern.sequin_stars",
+      "dress.pattern.holographic_rainbow"
+    ],
+    "fabric_pool": [
+      "fabric.tulle_silk",
+      "fabric.chiffon_silk",
+      "fabric.crinkle_chiffon",
+      "fabric.charmeuse_silk"
+    ],
+    "tailoring_pool": [
+      "tailoring.chantilly_overlay",
+      "tailoring.lace_insertion",
+      "tailoring.lace_applique",
+      "tailoring.pintucks_precision"
+    ],
+    "hair_accessory_pool": [
+      "hair.accessory.flower_clips_garden",
+      "hair.accessory.flower_crown_bob",
+      "hair.accessory.flower_cluster_side",
+      "hair.accessory.alice_band_rosette"
+    ],
+    "hosiery_pool": [
+      "hosiery.lace_trim_cream",
+      "hosiery.scallop_edge_ivory",
+      "hosiery.ruffle_ankle_white",
+      "hosiery.eyelet_trim_white"
+    ],
+    "requires": [],
+    "excludes": [],
+    "embellishment_focus": [
+      "rosette",
+      "floral",
+      "garden"
+    ]
+  },
+  "ensemble.bow_devotion": {
+    "domain": "ENSEMBLE",
+    "tier": 1,
+    "description": "Ribbon obsession. Bows everywhere in strategic clusters. Graphic bow statements.",
+    "contents": "Bow devotion. Bows cascade and cluster throughout.",
+    "group": "ensemble_complete",
+    "priority": "P1: CORE",
+    "random": true,
+    "theme": "bow_obsession",
+    "embellishment_pool": [
+      "embellish.bow_bonanza_shoulder_statement",
+      "embellish.bow_bonanza_waist_accent",
+      "embellish.double_shoulder_bow_massive"
+    ],
+    "pattern_pool": [
+      "dress.pattern.sparkle_bows",
+      "dress.pattern.glitter_hearts",
+      "dress.pattern.sequin_polka"
+    ],
+    "fabric_pool": [
+      "fabric.cotton_sateen",
+      "fabric.taffeta_silk",
+      "fabric.georgette_silk"
+    ],
+    "tailoring_pool": [
+      "tailoring.ribbon_edge",
+      "tailoring.cording_piping",
+      "tailoring.bound_buttonholes"
+    ],
+    "hair_accessory_pool": [
+      "hair.accessory.bow_headband_oversized",
+      "hair.accessory.large_side_bow",
+      "hair.accessory.twin_bows_matching",
+      "hair.accessory.multiple_bow_clips",
+      "hair.accessory.bow_clips_everywhere"
+    ],
+    "hosiery_pool": [
+      "hosiery.ribbon_weave_pink",
+      "hosiery.bow_accent_white",
+      "hosiery.ruffle_ankle_white",
+      "hosiery.double_ruffle_pink"
+    ],
+    "requires": [],
+    "excludes": [],
+    "embellishment_focus": [
+      "bow",
+      "statement",
+      "composition"
+    ]
+  },
+  "ensemble.refined_elegance": {
+    "domain": "ENSEMBLE",
+    "tier": 1,
+    "description": "Understated luxury. Pearls and subtle sheen. Sophisticated restraint.",
+    "contents": "Refined elegance. Pearl trim and sophisticated detailing.",
+    "group": "ensemble_complete",
+    "priority": "P1: CORE",
+    "random": true,
+    "theme": "refined_pastels",
+    "embellishment_pool": [
+      "embellish.hand_beaded_gradient_bodice",
+      "embellish.metallic_thread_couching",
+      "embellish.dimensional_lace_overlay_system",
+      "embellish.conversion_lace_insertion"
+    ],
+    "pattern_pool": [
+      "dress.pattern.glitter_hearts",
+      "dress.pattern.glitter_flowers",
+      "dress.pattern.iridescent_clouds"
+    ],
+    "fabric_pool": [
+      "fabric.charmeuse_silk",
+      "fabric.swiss_dot",
+      "fabric.point_esprit",
+      "fabric.lawn_cotton"
+    ],
+    "tailoring_pool": [
+      "tailoring.cording_piping",
+      "tailoring.bound_buttonholes",
+      "tailoring.smocking_geometric",
+      "tailoring.pintucks_precision"
+    ],
+    "hair_accessory_pool": [
+      "hair.accessory.pearl_strand_band",
+      "hair.accessory.ribbon_woven",
+      "hair.accessory.headband_scalloped",
+      "hair.accessory.barrette_parade"
+    ],
+    "hosiery_pool": [
+      "hosiery.eyelet_trim_white",
+      "hosiery.cable_knit_cream",
+      "hosiery.fold_cuff_white",
+      "hosiery.lace_trim_cream"
+    ],
+    "requires": [],
+    "excludes": [],
+    "embellishment_focus": [
+      "applique",
+      "refined",
+      "elegant"
+    ]
+  },
+  "ensemble.lace_heirloom": {
+    "domain": "ENSEMBLE",
+    "tier": 1,
+    "description": "Delicate precision throughout. Dimensional lace depth. Precious vintage quality.",
+    "contents": "Lace heirloom. Dimensional lace medallions and overlays.",
+    "group": "ensemble_complete",
+    "priority": "P1: CORE",
+    "random": true,
+    "theme": "lace_heirloom",
+    "embellishment_pool": [
+      "embellish.dimensional_lace_overlay_system",
+      "embellish.standing_ruff_collar_tall",
+      "embellish.peplum_tier_horizontal"
+    ],
+    "pattern_pool": [
+      "dress.pattern.glittered_dots",
+      "dress.pattern.glittered_florals",
+      "dress.pattern.glitter_hearts",
+      "dress.pattern.sequin_stars",
+      "dress.pattern.holographic_rainbow"
+    ],
+    "fabric_pool": [
+      "fabric.lace_alen\u00e7on",
+      "fabric.swiss_dot",
+      "fabric.batiste_cotton",
+      "fabric.charmeuse_silk"
+    ],
+    "tailoring_pool": [
+      "tailoring.lace_insertion",
+      "tailoring.chantilly_overlay",
+      "tailoring.eyelet_embroidery",
+      "tailoring.drawn_thread"
+    ],
+    "hair_accessory_pool": [
+      "hair.accessory.ribbon_woven",
+      "hair.accessory.pearl_strand_band",
+      "hair.accessory.alice_band_rosette",
+      "hair.accessory.ribbon_bow_trailing"
+    ],
+    "hosiery_pool": [
+      "hosiery.scallop_edge_ivory",
+      "hosiery.eyelet_trim_white",
+      "hosiery.lace_trim_cream",
+      "hosiery.picot_edge_blush"
+    ],
+    "requires": [],
+    "excludes": [],
+    "embellishment_focus": [
+      "lace",
+      "heirloom",
+      "vintage"
+    ]
+  },
+  "ensemble.glitter_abundance": {
+    "domain": "ENSEMBLE",
+    "tier": 1,
+    "description": "Layered sparkle saturation. Stacked glitter effects. Dimensional shimmer throughout.",
+    "contents": "Glitter abundance. Glitter layers and dimensional sparkle.",
+    "group": "ensemble_complete",
+    "priority": "P1: CORE",
+    "random": true,
+    "theme": "glitter_abundance",
+    "embellishment_pool": [
+      "embellish.dimensional_lace_overlay_system",
+      "embellish.double_shoulder_bow_massive",
+      "embellish.tiered_ruffle_stack_wide"
+    ],
+    "pattern_pool": [
+      "dress.pattern.glittered_dots",
+      "dress.pattern.glittered_florals",
+      "dress.pattern.glitter_hearts",
+      "dress.pattern.sequin_stars",
+      "dress.pattern.holographic_rainbow"
+    ],
+    "fabric_pool": [
+      "fabric.tulle_silk",
+      "fabric.organza_silk",
+      "fabric.metallic_organza",
+      "fabric.crinkle_chiffon"
+    ],
+    "tailoring_pool": [
+      "tailoring.tiered_construction",
+      "tailoring.cording_piping",
+      "tailoring.french_seams"
+    ],
+    "hair_accessory_pool": [
+      "hair.accessory.glitter_clips_allover",
+      "hair.accessory.rainbow_clips_allover",
+      "hair.accessory.bobby_pins_decorative"
+    ],
+    "hosiery_pool": [
+      "hosiery.double_ruffle_pink",
+      "hosiery.ruffle_ankle_white",
+      "hosiery.fold_cuff_white",
+      "hosiery.bow_accent_white"
+    ],
+    "requires": [],
+    "excludes": [],
+    "embellishment_focus": [
+      "crystalline",
+      "sparkle",
+      "glitter"
+    ]
+  },
+  "ensemble.gingham_tradition": {
+    "domain": "ENSEMBLE",
+    "tier": 1,
+    "description": "Classic check aesthetic. Structured charm. Vintage picnic elegance with couture refinement.",
+    "contents": "Gingham tradition. Check patterns with structured detail.",
+    "group": "ensemble_complete",
+    "priority": "P1: CORE",
+    "random": true,
+    "theme": "gingham_couture",
+    "embellishment_pool": [
+      "embellish.bow_bonanza_waist_accent",
+      "embellish.double_shoulder_bow_massive",
+      "embellish.tiered_ruffle_stack_wide",
+      "embellish.shoulder_ruffle_explosion_medium"
+    ],
+    "pattern_pool": [
+      "dress.pattern.glittered_dots",
+      "dress.pattern.glittered_florals",
+      "dress.pattern.glitter_hearts",
+      "dress.pattern.sequin_stars",
+      "dress.pattern.holographic_rainbow"
+    ],
+    "fabric_pool": [
+      "fabric.cotton_sateen",
+      "fabric.taffeta_silk",
+      "fabric.batiste_cotton",
+      "fabric.lawn_cotton"
+    ],
+    "tailoring_pool": [
+      "tailoring.double_ruffle",
+      "tailoring.cording_piping",
+      "tailoring.pintucks_precision",
+      "tailoring.french_seams"
+    ],
+    "hair_accessory_pool": [
+      "hair.accessory.bow_clips_temple_pair",
+      "hair.accessory.headband_bow_attached",
+      "hair.accessory.ribbon_woven",
+      "hair.accessory.headband_scalloped"
+    ],
+    "hosiery_pool": [
+      "hosiery.ruffle_ankle_white",
+      "hosiery.cable_knit_cream",
+      "hosiery.eyelet_trim_white",
+      "hosiery.bow_accent_white"
+    ],
+    "requires": [],
+    "excludes": [],
+    "embellishment_focus": [
+      "ruffle",
+      "theatrical",
+      "cascade"
+    ]
+  },
+  "ensemble.celestial_fantasy": {
+    "domain": "ENSEMBLE",
+    "tier": 1,
+    "description": "Night sky elegance. Stars and moons. Dreamy dimensional texture. Ethereal movement.",
+    "contents": "Celestial fantasy. Stars and dreamy sparkle.",
+    "group": "ensemble_complete",
+    "priority": "P1: CORE",
+    "random": true,
+    "theme": "celestial_night",
+    "embellishment_pool": [
+      "embellish.wing_sleeve_projection",
+      "embellish.standing_ruff_collar_tall",
+      "embellish.cage_crinoline_extreme",
+      "embellish.dimensional_lace_overlay_system"
+    ],
+    "pattern_pool": [
+      "dress.pattern.glittered_dots",
+      "dress.pattern.glittered_florals",
+      "dress.pattern.glitter_hearts",
+      "dress.pattern.sequin_stars",
+      "dress.pattern.holographic_rainbow"
+    ],
+    "fabric_pool": [
+      "fabric.crinkle_chiffon",
+      "fabric.tulle_silk",
+      "fabric.chiffon_silk",
+      "fabric.point_esprit"
+    ],
+    "tailoring_pool": [
+      "tailoring.eyelet_embroidery",
+      "tailoring.smocking_geometric",
+      "tailoring.drawn_thread",
+      "tailoring.fagoting_openwork"
+    ],
+    "hair_accessory_pool": [
+      "hair.accessory.butterfly_clips_flutter",
+      "hair.accessory.glitter_clips_allover",
+      "hair.accessory.bobby_pins_decorative"
+    ],
+    "hosiery_pool": [
+      "hosiery.cable_knit_cream",
+      "hosiery.eyelet_trim_white",
+      "hosiery.fold_cuff_white",
+      "hosiery.lace_trim_cream"
+    ],
+    "requires": [],
+    "excludes": [],
+    "embellishment_focus": [
+      "ruffle",
+      "cascade",
+      "crystalline",
+      "fantasy"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "makeup.professional_base_system": {
+    "domain": "CHARACTER",
+    "tier": 1,
+    "description": "Professional makeup base system - foundation and cheeks",
+    "contents": "BASE: Cool-toned foundation in 2-3 layers. Lavender-grey pigment under eyes faintly visible through color corrector and concealer layers. Fatigue visible beneath coverage. CHEEKS: Dense cool pink blush across cheekbones extended over nose bridge. 2-3 blush layers creating saturated rosy flush.",
+    "group": "makeup_professional_system",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [
+      "makeup.professional_sparkle_system",
+      "makeup.professional_detail_system"
+    ],
+    "excludes": [],
+    "min_visible_distance": "close",
+    "max_visible_distance": "close"
+  },
+  "makeup.professional_base_system_medium": {
+    "domain": "CHARACTER",
+    "tier": 1,
+    "description": "Professional makeup base - medium distance",
+    "contents": "Professional makeup visible in medium framing. Cool-toned foundation with flawless coverage. Lavender-grey under eyes visible beneath concealer. Dense saturated cool pink blush across cheekbones and nose bridge creating rosy flush.",
+    "group": "makeup_professional_system",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [
+      "makeup.professional_sparkle_system_medium",
+      "makeup.professional_detail_system_medium"
+    ],
+    "excludes": [],
+    "min_visible_distance": "medium",
+    "max_visible_distance": "medium"
+  },
+  "makeup.professional_sparkle_system": {
+    "domain": "CHARACTER",
+    "tier": 1,
+    "description": "Professional makeup sparkle system - highlights and glitter",
+    "contents": "HIGHLIGHT: Wet-look dimensional glow on cheekbones, nose bridge, cupid's bow, brow bone, inner eye corners. Each point catches overhead light with bright white specular reflections. GLITTER: Eyelids completely covered in dense pressed glitter (pale pink fine particles). Glitter from lashline to brow bone. Inner corners with chunky silver-white glitter. Lower lashline fully lined with pale pink glitter. Outer corners with gel glitter texture. Under-eye loose glitter 5-8mm below lashes. Brow bone covered in champagne shimmer. Cheekbone highlights topped with champagne micro-glitter. Nose bridge shimmer stripe. Cupid's bow pearl shimmer dot.",
+    "group": "makeup_professional_system",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [
+      "makeup.professional_base_system",
+      "makeup.professional_detail_system"
+    ],
+    "excludes": [],
+    "min_visible_distance": "close",
+    "max_visible_distance": "close"
+  },
+  "makeup.professional_sparkle_system_medium": {
+    "domain": "CHARACTER",
+    "tier": 1,
+    "description": "Professional sparkle and highlight - medium distance",
+    "contents": "HIGHLIGHTS: Wet-look dimensional glow on cheekbones, nose bridge, cupid's bow catching overhead light with bright white reflections. GLITTER: Eyelids covered in dense glitter (pale pink). Inner corners with chunky silver-white glitter. Glitter under eyes and on brow bones. Cheekbone highlights with champagne shimmer. Nose bridge shimmer. All sparkle elements catching harsh overhead LED with bright speculars.",
+    "group": "makeup_professional_system",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [
+      "makeup.professional_base_system_medium",
+      "makeup.professional_detail_system_medium"
+    ],
+    "excludes": [],
+    "min_visible_distance": "medium",
+    "max_visible_distance": "medium"
+  },
+  "makeup.professional_detail_system": {
+    "domain": "CHARACTER",
+    "tier": 1,
+    "description": "Professional makeup detail system - eyes, lashes, brows, lips, jewels",
+    "contents": "EYES: Pale pink cream base across lid. Lavender in crease. Iridescent wash with wet sheen. Pressed glitter center lid. Duochrome shadow outer corner (pink-to-lavender shift). Chunky gel glitter over center. Pearl shimmer inner corner. Eyes highly reflective - polished glass with multiple bright reflections like dull mirrors. Glittery multi-point reflections. LASHES: Upper lashes thick with 2-3 mascara coats (clumpy texture). Individual clusters at outer corners. Lower lashes defined. LINER: Black gel on upper lashline with thin wing. Pale pink on lower waterline. BROWS: Filled cool brown with hair-like strokes, brushed upward with gel. LIPS: Cool pink liner slightly overdrawn. 2-3 lipstick and gloss layers with wet glossy dimension. Glitter particles in gloss. Intense shine. JEWELS: Tiny rhinestones at outer eye corners (3-4 per side). Small rhinestones on brow bone (2-3 per side). Micro pearls at inner corners. All catching overhead light.",
+    "group": "makeup_professional_system",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [
+      "makeup.professional_base_system",
+      "makeup.professional_sparkle_system"
+    ],
+    "excludes": [],
+    "min_visible_distance": "close",
+    "max_visible_distance": "close"
+  },
+  "makeup.professional_detail_system_medium": {
+    "domain": "CHARACTER",
+    "tier": 1,
+    "description": "Professional eye and lip detail - medium distance",
+    "contents": "EYES: Pale pink and lavender eyeshadow with iridescent sheen. Dense glitter on lids. Duochrome shadow at outer corners. Eyes highly reflective - multiple bright reflections like dull mirrors. LASHES: Thick mascara creating dramatic volume. LINER: Black on upper lashline with wing. BROWS: Filled cool brown, brushed upward. LIPS: Cool pink with wet glossy layers. Glitter particles visible. Intense shine catching overhead light. JEWELS: Rhinestones at eye corners and brow bones catching light.",
+    "group": "makeup_professional_system",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [
+      "makeup.professional_base_system_medium",
+      "makeup.professional_sparkle_system_medium"
+    ],
+    "excludes": [],
+    "min_visible_distance": "medium",
+    "max_visible_distance": "medium"
+  }
+}

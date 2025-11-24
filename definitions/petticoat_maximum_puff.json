@@ -1,0 +1,74 @@
+{
+  "dress.underskirt_maximum_tulle_cloud": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "MAXIMUM tulle petticoat - extreme volume support",
+    "contents": "PETTICOAT EXTREME WIDTH PROJECTION. Skirt stands OUT horizontally from body in wide bell dome.",
+    "group": "underskirt_maximum",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "dress.underskirt_six_tier_ultra_gathered": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "SIX tier ultra-gathered petticoat",
+    "contents": "PETTICOAT EXTREME WIDTH PROJECTION. Skirt stands OUT horizontally from body in wide bell dome.",
+    "group": "underskirt_maximum",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "dress.underskirt_triple_circle_base": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "TRIPLE circle petticoat - extreme circumference",
+    "contents": "PETTICOAT EXTREME WIDTH PROJECTION. Skirt stands OUT horizontally from body in wide bell dome.",
+    "group": "underskirt_maximum",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "dress.underskirt_crinoline_cage_tulle": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Hybrid crinoline with tulle overlay",
+    "contents": "PETTICOAT EXTREME WIDTH PROJECTION. Skirt stands OUT horizontally from body in wide bell dome.",
+    "group": "underskirt_maximum",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "dress.underskirt_mega_poof_foundation": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Multi-method maximum volume petticoat",
+    "contents": "PETTICOAT EXTREME WIDTH PROJECTION. Skirt stands OUT horizontally from body in wide bell dome.",
+    "group": "underskirt_maximum",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  },
+  "dress.petticoat_visible_hem": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Petticoat intentionally visible at hem",
+    "contents": "PETTICOAT EXTREME WIDTH PROJECTION.",
+    "group": "petticoat_detail",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body"
+  }
+}

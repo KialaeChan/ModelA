@@ -1,0 +1,46 @@
+{
+  "timing.rapid_pose_response": {
+    "domain": "TIMING",
+    "tier": 1,
+    "description": "Body in rapid pose position",
+    "contents": "Body positioned quickly toward focus. Body positioning evident.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false
+  },
+  "timing.momentum_overshoot": {
+    "domain": "TIMING",
+    "tier": 2,
+    "description": "Pose with dress momentum visible",
+    "contents": "Dress motion visible - skirt settling, petticoat angle evidence of rotation.",
+    "group": "response_speed",
+    "priority": "P1: CORE",
+    "random": true
+  },
+  "timing.pose_strain_evident": {
+    "domain": "TIMING",
+    "tier": 1,
+    "description": "Pose with visible physical strain",
+    "contents": "Arms trembling. Stance unsteady. Position already sagging from initial placement.",
+    "group": "compliance_spectrum",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "excludes": [
+      "timing.facial_strain_close"
+    ],
+    "min_visible_distance": "medium"
+  },
+  "timing.facial_strain_close": {
+    "domain": "TIMING",
+    "tier": 1,
+    "description": "Visible facial strain for close-up headshots",
+    "contents": "Jaw clenched. Brow muscles tight. Expression held rather than natural.",
+    "group": "compliance_spectrum",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "excludes": [
+      "timing.pose_strain_evident"
+    ],
+    "max_visible_distance": "close"
+  }
+}

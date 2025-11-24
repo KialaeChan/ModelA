@@ -1,0 +1,264 @@
+{
+  "illness.insomnia_tremor": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Insomnia: barely visible finger tremor",
+    "contents": "Subtle fatigue visible in hands - may have slight unsteadiness, fingers held with less precision. Posture fatigue.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.sensory_overload_flinch",
+      "illness.unfocused_neutral_expression",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.insomnia_eyelid_flutter": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Insomnia: slow blinks and heavy lids",
+    "contents": "Heavy eyelids, slow blinks. Occasionally blinks extend to near-closure before opening.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.sensory_overload_flinch",
+      "illness.unfocused_neutral_expression",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.insomnia_sway": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Insomnia: almost imperceptible weight shift",
+    "contents": "Insomnia manifestation: extremely subtle weight shift from one foot to the other. Not visible swaying - just the occasional almost imperceptible.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.sensory_overload_flinch",
+      "illness.unfocused_neutral_expression",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.insomnia_glazed_stare": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Insomnia: slightly unfocused gaze",
+    "contents": "Insomnia manifestation: eyes directed toward camera but focus slightly soft, gaze not quite sharp. Not dramatically dissociated - just a subtle lack.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.sensory_overload_flinch",
+      "illness.unfocused_neutral_expression",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.sensory_overload_flinch": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Sensory overload: minimal tension and micro-flinches",
+    "contents": "Sensory overload manifestation: very slight tension in shoulders and occasional tiny flinch responses. Not dramatic recoiling - just barely visible.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.unfocused_neutral_expression",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.sensory_overload_squint": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Sensory overload: slight tension around eyes",
+    "contents": "Sensory overload manifestation: subtle tension around eyes, lids not fully relaxed. Not dramatic squinting - just slightly narrowed eyes with minor.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.unfocused_neutral_expression",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.sensory_overload_hunched": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Sensory overload: barely raised shoulders",
+    "contents": "Sensory overload manifestation: shoulders raised maybe half an inch higher than relaxed position. Not obvious hunching - just subtle elevation that.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.unfocused_neutral_expression",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.sensory_overload_jaw_clench": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Sensory overload: slight jaw tension",
+    "contents": "Sensory overload manifestation: jaw held slightly tighter than relaxed, subtle definition in masseter muscle. Not dramatically clenched - just mild.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.unfocused_neutral_expression",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.unfocused_neutral_expression": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Neutral expression with unfocused gaze - emotionally absent appearance",
+    "contents": "Neutral face with zero visible emotional expression. Eyes unfocused and distant. Gaze passes through rather than observes. All facial muscles relaxed with no tension.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.sensory_overload_flinch",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.gentle_fabric_contact": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Fingers lightly touching dress fabric with minimal pressure",
+    "contents": "Fingers making light contact with dress fabric. Minimal pressure - fingertips barely grazing surface. Delicate touching motion.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.sensory_overload_flinch",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.sensory_deprivation_stare": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Sensory deprivation: unfocused middle-distance stare",
+    "contents": "Eyes unfocused middle-distance. Gaze fixed on nothing.",
+    "group": "illness_type",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.sensory_overload_flinch",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.awkward_body_orientation": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Body positioning awkward - head and body not well coordinated",
+    "contents": "Body turn overshoots or undershoots noticeably. Head and torso not aligned. Physical misalignment visible.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.sensory_overload_flinch",
+      "illness.nausea_stillness"
+    ]
+  },
+  "illness.nausea_stillness": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Nausea: carefully controlled movement",
+    "contents": "Nausea manifestation: movements slightly more controlled. Deliberate positioning. Physical restraint visible.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.sensory_overload_flinch",
+      "illness.unfocused_neutral_expression"
+    ]
+  },
+  "illness.nausea_swallowing": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Nausea: occasional hard swallow",
+    "contents": "Nausea manifestation: occasional visible swallow, slightly more pronounced than normal. Not constant - just periodic hard swallows.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.sensory_overload_flinch",
+      "illness.unfocused_neutral_expression"
+    ]
+  },
+  "illness.nausea_pallor": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Nausea: very slight skin tone change",
+    "contents": "Nausea manifestation: skin tone very subtly less vibrant than healthy baseline. Not dramatic greying - just fractionally less color in lips and.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.sensory_overload_flinch",
+      "illness.unfocused_neutral_expression"
+    ]
+  },
+  "illness.nausea_careful_movement": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Nausea: slightly slower head turns",
+    "contents": "Nausea manifestation: head rotation toward camera executed slightly slower than normal. Not dramatically cautious - just a bit more measured in the.",
+    "group": "illness_type",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "illness.insomnia_tremor",
+      "illness.sensory_overload_flinch",
+      "illness.unfocused_neutral_expression"
+    ]
+  },
+  "illness.chronic_insomnia_severe": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Chronic severe sleep deprivation - physical deterioration visible through makeup",
+    "contents": "Physical breakdown visible beneath makeup: Sclera with thick red blood vessels across white surface. Dark circles beneath concealer - lavender-grey-purple undertone visible through coverage. Upper eyelids at 40-50% closure. Micro-tremor in perioral muscles (0.5-1mm). Moisture pooling along lower lash line. Facial muscles at reduced engagement - jaw slack, mouth corners requiring visible effort to maintain position. Skin at jawline showing gravitational sag.",
+    "group": "illness_type",
+    "priority": "P0: MANDATE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  },
+  "illness.dissociation_profound": {
+    "domain": "ILLNESS",
+    "tier": 1,
+    "description": "Profound dissociation - nobody home behind the makeup",
+    "contents": "Eyes focused far beyond camera while facial expression held. Gaze depth and expression engagement disconnected. Facial muscles holding expression position (smile formed, mouth positioned). Eyes directed forward at camera location but focal depth set 15-20 feet beyond. Pupils dilated 6-7mm. Wet reflective tear film coating corneas. Expression muscles engaged, eye focus disengaged. Mouth shape present, eye connection absent.",
+    "group": "illness_type",
+    "priority": "P0: MANDATE",
+    "random": true,
+    "requires": [],
+    "excludes": []
+  }
+}

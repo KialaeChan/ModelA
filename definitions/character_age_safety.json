@@ -1,0 +1,49 @@
+{
+  "character.age_safety_explicit_adult": {
+    "domain": "CHARACTER_SAFETY",
+    "tier": 1,
+    "description": "CRITICAL: Explicit adult age confirmation - 20-24 years old",
+    "contents": "ADULT 20-24 YEARS OLD. Legally adult, completely mature adult. Mature adult with completed physical development. Young adult in prime adulthood. Aged 20-24.",
+    "group": "age_safety_critical",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "character.adult_face_maturity": {
+    "domain": "CHARACTER_SAFETY",
+    "tier": 1,
+    "description": "Adult facial maturity with manga/anime proportions",
+    "contents": "Adult 20-24 year old with manga/anime facial structure. Adult maturity with manga proportions - NOT child face, NOT teenager. Mature adult facial geometry rendered with anime aesthetic. Adult jaw structure, adult facial bone placement, mature facial proportions of 20-24 year old. Face visibly adult despite manga proportions. Adult anime face - NOT realistic western adult, NOT child anime face.",
+    "group": "age_safety_critical",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "character.adult_proportions_body": {
+    "domain": "CHARACTER_SAFETY",
+    "tier": 1,
+    "description": "Adult body proportions - visible upper body in medium framing",
+    "contents": "Adult body proportions visible in upper body frame: thin arms visible to elbows with no muscle definition, narrow shoulders, visible collarbones and ribs, mature hands. Waifish petite adult frame. Adult-sized figure with delicate build.",
+    "group": "age_safety_critical",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": ["character.adult_proportions_face_close"],
+    "min_visible_distance": "medium"
+  },
+  "character.adult_proportions_face_close": {
+    "domain": "CHARACTER_SAFETY",
+    "tier": 1,
+    "description": "Adult facial proportions with manga aesthetics - for close-up headshots",
+    "contents": "Adult 20-24 year old with manga/anime facial proportions. Larger anime-style eyes but adult-sized (not child-large). Adult facial structure with manga aesthetic. Mature face with anime proportions.",
+    "group": "age_safety_critical",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "requires": [],
+    "excludes": ["character.adult_proportions_body"],
+    "min_visible_distance": "close",
+    "max_visible_distance": "close"
+  }
+}

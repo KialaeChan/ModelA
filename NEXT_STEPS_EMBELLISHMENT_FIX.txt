@@ -1,0 +1,129 @@
+MODELA PROJECT - NEXT STEPS FOR EMBELLISHMENT FIX
+===================================================
+Generated: Current Session
+Priority: HIGH - Intermittent contamination causing atom duplication
+
+CURRENT ISSUE:
+--------------
+- Same atom sometimes appears in both Theme Embellishment (Primary) AND Shiny Embellishments slots
+- Occurs in ~20% of generations (intermittent)
+- Example: "Whisper-thin lace at corners. 15mm medallions nearly invisible." appearing in both
+- Development protocols detect it but root cause not yet identified
+
+DIAGNOSTIC STEPS:
+-----------------
+1. First, run full diagnostic:
+   ```
+   cd ModelA
+   python development_protocols.py > diagnostic_output.txt
+   ```
+
+2. Identify the contaminating atoms:
+   ```
+   for i in {1..20}; do 
+     python camera.py 2>/dev/null
+     grep "Theme Embellishment" prompt.txt >> theme_samples.txt
+     grep "Shiny Embellishments" prompt.txt >> shiny_samples.txt
+   done
+   # Then compare to find overlaps
+   ```
+
+3. Check if specific atoms are misconfigured:
+   - Look for atoms that have BOTH D0_Core and D1_Architectural characteristics
+   - Check for atoms missing 'group' field entirely
+   - Verify no atom has duplicate entries in the JSON
+
+ROOT CAUSE HYPOTHESES:
+----------------------
+1. MOST LIKELY: The theme_embellishment_primary slot might not be restricted to D1_Architectural only
+   - Check layer_slot_schema.json for theme_embellishment_primary configuration
+   - Verify it has proper group filtering
+
+2. Selection logic in camera.py might have race condition:
+   - The previously_selected list might not include theme_embellishment yet when dress.embellishments runs
+   - Check execution order of slots
+
+3. Some atoms might be incorrectly grouped:
+   - "embellish.lace_fragment_whispers" might sometimes load as D1_Architectural
+   - Check for dynamic group assignment anywhere
+
+FIX APPROACH:
+-------------
+1. Add explicit group filtering to theme_embellishment_primary slot:
+   ```python
+   # In camera.py, add for theme_embellishment_primary slot:
+   if slot.get("slot_id") == "theme_embellishment_primary":
+       candidates = [a for a in candidates if hasattr(a, 'group') and a.group == 'D1_Architectural']
+   ```
+
+2. Add mutual exclusion tracking:
+   ```python
+   # Create a set to track all selected embellishment atoms
+   selected_embellishment_keys = set()
+   
+   # When selecting theme_embellishment_primary:
+   selected_embellishment_keys.add(selected_atom.key)
+   
+   # When selecting dress.embellishments:
+   candidates = [a for a in candidates if a.key not in selected_embellishment_keys]
+   ```
+
+3. Add hard validation in layer_slot_schema.json:
+   ```json
+   "theme_embellishment_primary": {
+     "source_file": "definitions/shiny_embellishments.json",
+     "filter_group": "D1_Architectural",  // Add this
+     "max_atoms": 1
+   }
+   ```
+
+4. Create strict group enforcement:
+   ```python
+   # In load_atoms function:
+   if atom.get('group') not in ['D0_Core', 'D1_Architectural']:
+       print(f"WARNING: {key} has invalid group: {atom.get('group')}")
+       # Force a default based on content analysis
+   ```
+
+TESTING PROTOCOL:
+-----------------
+1. After implementing fix, run 50 generations:
+   ```python
+   contamination_count = 0
+   for i in range(50):
+       generate_prompt()
+       if check_for_duplication():
+           contamination_count += 1
+   
+   if contamination_count == 0:
+       print("✅ FIX SUCCESSFUL")
+   else:
+       print(f"❌ Still failing: {contamination_count}/50")
+   ```
+
+2. Verify group distribution:
+   - All D1_Architectural atoms ONLY in theme_embellishment_primary
+   - All D0_Core atoms ONLY in dress.embellishments
+   - No crossover even once in 50 generations
+
+3. Check variety maintained:
+   - At least 10 unique theme embellishments in 50 generations
+   - At least 15 unique shiny embellishment combinations
+
+VALIDATION CHECKLIST:
+--------------------
+[ ] No atom appears in both slots across 50 generations
+[ ] D1_Architectural only in theme slot
+[ ] D0_Core only in shiny slot  
+[ ] Token count still ~3000-3500
+[ ] Variety maintained (no excessive repetition)
+[ ] development_protocols.py returns ALL PASS
+[ ] No atoms with missing/invalid groups
+
+NOTES FOR NEXT SESSION:
+----------------------
+- Start by reading DEVELOPMENT_PROTOCOLS.md
+- Run development_protocols.py immediately to see current state
+- The contamination is INTERMITTENT so need multiple test runs to catch it
+- Focus on the selection logic execution order - this is likely the issue
+- Consider adding debug output to camera.py to trace exact selection path

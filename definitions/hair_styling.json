@@ -1,0 +1,378 @@
+{
+  "hair.style.crimped_texture": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Micro-crimped texture throughout bob",
+    "contents": "Micro-crimped zigzag texture through bob. Dimensional accordion pattern catching light. Blonde roots straight, pink lengths carry crimped detail.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.pigtails_uneven": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Low asymmetric pigtails - deliberately uneven placement",
+    "contents": "Low pigtails positioned asymmetrically - one higher, one lower. Bob-length secured with elastic bands.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.space_buns_messy": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Small space buns - imperfect twisted placement",
+    "contents": "Small space buns positioned high on sides of head - hair twisted and wrapped into messy knots. Buns deliberately imperfect with loose pieces escaping.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.bubble_ponytail": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Bubble ponytail - segmented elastic sections",
+    "contents": "Single ponytail with multiple elastic bands creating bubble segments. Each section teased for volume.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.twisted_sections": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Sections twisted and pinned - dimensional placement",
+    "contents": "Multiple small sections twisted rope-like and pinned back asymmetrically. Some tight, others loose. Sculptural arrangement.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.mini_buns_asymmetric": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Multiple tiny buns - asymmetric placement",
+    "contents": "Several tiny buns (1-2cm) placed asymmetrically across head. Rest hangs loose. Sculptural buns contrast with flowing lengths.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.tight_spiral_curls": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Tight spiral curls throughout bob - pin curl set",
+    "contents": "Tight spiral curls throughout bob. Small ringlets (1-2cm diameter) uniformly placed.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.loose_barrel_curls": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Loose barrel curls - larger soft curl work",
+    "contents": "Loose barrel curls (3-4cm) through bob. Soft romantic S-curve movement. Individually curled sections arranged.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.ringlet_cascade_side": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Ringlets cascading asymmetrically to one side",
+    "contents": "Ringlet curls cascading dramatically to one side. Tight ringlets swept across with deep side part, falling over shoulder.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.half_up_curl_work": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Upper section secured up, lower section elaborately curled",
+    "contents": "Upper half pulled up and secured at crown with clips. Lower section curled in tight ringlets (2-3cm diameter curls). Styled curls distributed throughout length.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.side_swept_pins_curls": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Dramatically swept to one side with multiple securing pins, ends curled",
+    "contents": "Bob swept to one side and secured with 6-8 bobby pins in linear pattern. Swept section held firmly.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.crown_poof_curled_ends": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Crown teased into high poof, lengths curled elaborately",
+    "contents": "Crown heavily teased with height (3-5cm lift), smoothed on surface. Rest of bob curled in ringlets or soft curls.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.tendril_framing_face": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Small curled tendrils left loose framing face, rest styled back",
+    "contents": "Small sections (1cm) at temples curled into tight tendrils framing face. Rest of bob pulled back or styled away.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.braided_accent_curled": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Small braids woven into bob as detail, rest elaborately curled",
+    "contents": "2-3 small braids (0.5-1cm) woven as accent detail - along side, at crown, or mixed throughout. Rest curled in ringlets or loose curls.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.twisted_sections_curl_ends": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Multiple sections twisted rope-like and pinned, ends curled and hanging",
+    "contents": "4-6 sections twisted rope-like and pinned back or up, loose ends curled and hanging.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.high_pigtails_simple": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Simple high pigtails secured with elastic bands",
+    "contents": "High pigtails above ears or at crown. Simple elastic bands securing each side. Clean center part.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.low_twin_tails": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Low twin tails positioned behind ears",
+    "contents": "Low twin tails at nape or behind ears - symmetrical. Simple elastic bands at nape. Hair falls naturally to shoulders.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.side_pigtails_uneven_simple": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Simple side pigtails at different heights - playful asymmetry",
+    "contents": "Side pigtails at different heights - one near temple, one near ear. Playful off-balance look. Simple elastic bands.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.simple_side_ponytail": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Side ponytail positioned over one shoulder",
+    "contents": "Hair pulled to one side in ponytail over shoulder. Simple elastic band. Bob length means short ponytail. Asymmetric off-center placement.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.simple_side_part_down": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Side part with hair left down naturally",
+    "contents": "Deep side part with hair down naturally. Asymmetric fall - more hair on one side. Bob hangs without curl or volume work. Blonde roots along part.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.simple_double_braids": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Two SHORT braids from bob - pigtail braids",
+    "contents": "Two SHORT pigtail braids. Center part with each side in simple three-strand braid. Elastic bands at ends.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.simple_side_braid": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "SHORT bob braided to one side - limited length",
+    "contents": "Bob swept to one side in loose three-strand braid over shoulder. Elastic at end. Asymmetric placement.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.simple_twin_buns": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Two small buns on sides of head - simple twin buns",
+    "contents": "Two small buns on sides above ears. Simple elastic bands or pins. Bob length means small compact buns. Symmetrical placement both sides.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.simple_clips_both_sides": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Multiple small clips on both sides - functional and cute",
+    "contents": "Multiple small clips (2-4 each side) securing hair from face. Simple snap clips or barrettes. Symmetrical or asymmetric placement.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.style.simple_bubble_ponytail": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Ponytail with multiple elastic bands creating bubble segments",
+    "contents": "Ponytail with elastic bands spaced along length creating bubble segments.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close"
+  },
+  "hair.styled_bob_medium": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Styled bob hair - medium distance",
+    "contents": "Bob-length hair styled and arranged. Pink-toned lengths, blonde roots visible.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "hair.accessorized_medium": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Hair with accessories - medium distance",
+    "contents": "Hair with bows, clips, or ribbons as accents.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "medium"
+  },
+  "hair.pink_blonde_fullbody": {
+    "domain": "HAIR_STYLE",
+    "tier": 2,
+    "description": "Pink and blonde hair visible - full body",
+    "contents": "Bob-length hair in pink and blonde tones.",
+    "group": "hair_styling_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "full_body"
+  },
+  "hair.style.intricate_crown_braid": {
+    "domain": "HAIR",
+    "tier": 1,
+    "description": "Intricate braided crown circling head",
+    "contents": "Dutch braid circling crown from temple to temple. Braid woven close to scalp creating raised rope texture. Loose wisps pulled free deliberately. Braid secured with multiple small pins. Bob length means braid sits as crown detail at upper head only.",
+    "group": "hair_style_variants",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close"
+  },
+  "hair.style.twisted_crown_elaborate": {
+    "domain": "HAIR",
+    "tier": 1,
+    "description": "Multiple twisted sections creating elaborate crown effect",
+    "contents": "6-8 small sections twisted individually and pinned to create dimensional crown at upper head. Each twist secured with bobby pin. Twisted sections cross over each other creating layered texture. Remaining hair left loose below. Complex pinning visible as deliberate styling.",
+    "group": "hair_style_variants",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close"
+  },
+  "hair.style.waterfall_braid_detail": {
+    "domain": "HAIR",
+    "tier": 1,
+    "description": "Waterfall braid detail with cascading sections",
+    "contents": "Waterfall braid technique from temple backward - strands dropped and picked up creating cascading effect. Braid sits along side of head as decorative detail. Multiple dropped sections create dimensional pattern. Bob length means braid is short decorative element.",
+    "group": "hair_style_variants",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close"
+  },
+  "hair.style.pin_curl_vintage_elaborate": {
+    "domain": "HAIR",
+    "tier": 1,
+    "description": "Elaborate vintage pin curl arrangement",
+    "contents": "Hair arranged in structured pin curl pattern - curls pinned flat against head in deliberate rows. Multiple bobby pins visible securing each curl section. Forehead area with tight small curls, sides with larger curls. Vintage setting pattern creating dimensional texture across entire head.",
+    "group": "hair_style_variants",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close"
+  },
+  "hair.style.twisted_updo_partial": {
+    "domain": "HAIR",
+    "tier": 1,
+    "description": "Partially twisted updo with elaborate pinning",
+    "contents": "Upper sections twisted and pinned up elaborately - multiple rope twists crossing and secured with numerous bobby pins. Lower sections left loose and curled. Visible pin placement creating structural detail. Complex twist arrangement at crown and upper head.",
+    "group": "hair_style_variants",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close"
+  },
+  "hair.style.braided_pigtails_complex": {
+    "domain": "HAIR",
+    "tier": 1,
+    "description": "Complex braided pigtails with multiple techniques",
+    "contents": "Two small pigtails braided using different techniques - one side Dutch braid (raised), other side French braid (flat). SHORT BOB LENGTH (chin to shoulder MAXIMUM) means TINY CHUNKY BRAIDS (8-12cm maximum). Braids stay within bob boundaries. NO long cascading braids. Textured difference between sides visible. Pastel elastic bands securing ends.",
+    "group": "hair_style_variants",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close"
+  },
+  "hair.style.victory_rolls_authentic": {
+    "domain": "HAIR",
+    "tier": 1,
+    "description": "Victory rolls pinned at front - vintage technique",
+    "contents": "Two victory rolls at forehead - front sections rolled upward and pinned creating dimensional roll shape on each side. Multiple bobby pins securing each roll. Back and side hair left loose. Authentic 1940s roll technique visible with structured shape and pin placement.",
+    "group": "hair_style_variants",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close"
+  },
+  "hair.style.micro_braids_throughout": {
+    "domain": "HAIR",
+    "tier": 1,
+    "description": "Multiple micro braids woven throughout hair",
+    "contents": "8-12 tiny braids (5mm width) woven throughout bob. Each micro braid secured with small clear elastic. Braids mixed into loose hair as dimensional detail. Some braids at temples, some at crown, creating complex textured effect throughout.",
+    "group": "hair_style_variants",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "scene.luxury_salon_room": {
+    "domain": "SCENE",
+    "tier": 1,
+    "description": "Institutional laboratory facility - open space, not enclosed by walls",
+    "contents": "Cold sterile facility with open grey space. Grey laboratory walls at depth with normal ambient lighting. Subject spotlit brighter than background.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "min_visible_distance": "medium"
+  },
+  "scene.floor_emphasis": {
+    "domain": "SCENE",
+    "tier": 1,
+    "description": "Open institutional space with visible flooring",
+    "contents": "Laboratory flooring visible with perspective. Polished high-end laboratory tile - expensive, pristine, state-of-the-art facility. Space extends beyond immediate surroundings.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "min_visible_distance": "full_body"
+  },
+  "scene.salon_details": {
+    "domain": "SCENE",
+    "tier": 2,
+    "description": "Laboratory facility equipment - visible at mid-height/wall level",
+    "contents": "Room details showing laboratory facility. Equipment behind subject at table height and wall-mounted - panels, carts, dispensers visible at mid-level.",
+    "group": "scene_detail",
+    "priority": "P0: MANDATE",
+    "random": false,
+    "min_visible_distance": "medium"
+  },
+  "scene.environment_rendering": {
+    "domain": "SCENE",
+    "tier": 1,
+    "description": "Environment rendered with depth - institutional context",
+    "contents": "Grey laboratory space with depth.",
+    "group": "rendering_note",
+    "priority": "P1: CORE",
+    "random": false
+  },
+  "scene.clinic_background_blur": {
+    "domain": "SCENE",
+    "tier": 2,
+    "description": "Blurry clinic background for close-up shots",
+    "contents": "Background OUT OF FOCUS - soft blur. Grey clinical walls. Metal cabinet edges. Stainless surfaces catching light. Laboratory equipment suggestions. All details blurred and indistinct. Clinical facility atmosphere without sharp detail.",
+    "group": "scene_detail",
+    "priority": "P2: DETAIL",
+    "random": false,
+    "min_visible_distance": "close",
+    "max_visible_distance": "close"
+  },
+  "lighting.harsh_overhead_led": {
+    "domain": "LIGHTING",
+    "tier": 1,
+    "description": "Cold white-blue spotlight on subject with bright speculars",
+    "contents": "Cold white-blue LED spotlight (6500-7000K) on subject - NO yellow, NO warm tones. Subject brightly lit, background normally lit. All sparkles, sequins, rhinestones render pure white speculars. Sharp clinical brightness reveals surface detail. Dimensional form through defined contrasts. Strong directional shadows under features. UNFLATTERING overhead angle - NOT portrait lighting, NOT beauty lighting. Harsh direct light that reveals rather than conceals. Documentary capture under institutional fluorescents.",
+    "group": "D0_Core",
+    "priority": "P0: MANDATE",
+    "random": false
+  },
+  "lighting.harsh_shadow_modeling": {
+    "domain": "LIGHTING",
+    "tier": 1,
+    "description": "Defined shadow modeling - bright overhead light contrast",
+    "contents": "CRUEL OVERHEAD LIGHT casting deep shadows under eyes, nose, chin. Unflattering angle emphasizes fatigue. NOT soft, NOT diffused, NOT flattering. Direct harsh institutional light. Shadows sharply defined with hard edges.",
+    "group": "lighting_technique",
+    "priority": "P1: CORE",
+    "random": false
+  },
+  "dissonance.dress_vs_environment": {
+    "domain": "DISSONANCE",
+    "tier": 1,
+    "description": "Dress shines jarringly in harsh laboratory space",
+    "contents": "Shiny dress stands out against cold grey laboratory space. Clashes with bright overhead LED lighting.",
+    "group": "D0_Core",
+    "priority": "P1: CORE",
+    "random": false
+  }
+}

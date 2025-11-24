@@ -1,0 +1,930 @@
+{
+  "embellish.special_day_signature_sparkle": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Signature special day sparkle coverage with bright reflections",
+    "contents": "Primary embellishment catches light across entire dress. All decorative elements gleaming under overhead light.",
+    "group": "D0_Core",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close",
+    "theme_tags": [
+      "sparkle",
+      "mandatory",
+      "crystalline_sparkle",
+      "glitter_everything",
+      "bow_obsession",
+      "romantic_floral",
+      "refined_pastels",
+      "lace_obsession",
+      "gingham_classic",
+      "celestial_magic",
+      "glitter_abundance"
+    ]
+  },
+  "embellish.special_day_specular": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Sparkle rendering with bright specular highlights",
+    "contents": "All raised embellishments render with bright specular highlights. Dimensional elements catch overhead light. Every decorative surface reflects and gleams.",
+    "group": "D0_Core",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close",
+    "theme_tags": [
+      "sparkle",
+      "mandatory",
+      "crystalline_sparkle",
+      "glitter_everything",
+      "bow_obsession",
+      "romantic_floral",
+      "refined_pastels",
+      "lace_obsession",
+      "gingham_classic",
+      "celestial_magic",
+      "glitter_abundance"
+    ]
+  },
+  "embellish.dimensional_lace_overlay_system": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Sculptural lace projecting forward from bodice",
+    "contents": "SCULPTURAL LACE TOWER - PRIMARY EMBELLISHMENT. Massive lace medallion at bodice center rising outward in tiers. Base flat. Middle padded projecting 2cm forward. Top wired standing 4-5cm proud. Creates cone projecting from chest. 15-20cm diameter. Casts shadow beneath. Breaks plane outward.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "placement": "bodice_center",
+    "visibility_angles": [
+      "front",
+      "three-quarter"
+    ],
+    "requires": [
+      "embellish.conversion_lace_insertion",
+      "embellish.special_day_signature_sparkle",
+      "embellish.special_day_specular",
+      "embellish.conversion_cutwork_shadow",
+      "embellish.metallic_thread_couching"
+    ],
+    "incompatible": [
+      "dress.pattern.bold_graphic"
+    ],
+    "encourages": [
+      "romantic",
+      "soft",
+      "close_distance"
+    ],
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "refined_elegance",
+      "romantic",
+      "lace",
+      "refined_pastels",
+      "lace_obsession",
+      "lace_heirloom",
+      "fantasy",
+      "crystalline"
+    ]
+  },
+  "embellish.bow_bonanza_shoulder_statement": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Colossal structured shoulder bows defining silhouette",
+    "contents": "COLOSSAL SHOULDER BOW - PRIMARY EMBELLISHMENT. Massive structured bow positioned at shoulder extending outward from body. Bow loops project sideways dramatically widening the shoulder silhouette. Tails cascade down from shoulder across bodice. Satin ribbon construction creates dimensional sculpture. ARCHITECTURAL BOW breaks the clean shoulder line, transforming narrow shoulders into dramatic statement. Dominates upper bodice in medium frame - bow structure visible from shoulder cap extending across chest area.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [
+      "embellish.special_day_signature_sparkle",
+      "embellish.special_day_specular",
+      "embellish.beaded_fringe_suspended",
+      "embellish.hand_pleated_micro_ruffle"
+    ],
+    "incompatible": [
+      "dress.pattern.bold_graphic"
+    ],
+    "encourages": [
+      "bow",
+      "composition",
+      "structured",
+      "focus.angle_elevated_quarter_turn",
+      "focus.angle_three_quarter_elevated"
+    ],
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "bow_obsession",
+      "gingham_tradition",
+      "romantic",
+      "bow",
+      "statement",
+      "gingham_couture"
+    ],
+    "placement": "shoulder",
+    "visibility_angles": [
+      "front",
+      "side",
+      "three-quarter"
+    ]
+  },
+  "embellish.bow_bonanza_back_drama": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Colossal back bow creating dominant silhouette statement - DISABLED until back-view cameras added",
+    "contents": "BACK BOW COLUMN - PRIMARY EMBELLISHMENT. Column of graduated bows descending down center back. Largest bow at upper back between shoulder blades projects outward creating dimensional silhouette from behind. Bows graduate smaller toward hem. Each bow's loops extend from back surface creating sculptural relief. BACK ARCHITECTURE visible when subject turns - creates dramatic profile with protruding bow structures. Note: Currently disabled - requires back-view camera angles to display properly.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": false,
+    "placement": "back",
+    "visibility_angles": [
+      "back",
+      "side",
+      "three-quarter-back"
+    ],
+    "requires": [
+      "embellish.special_day_signature_sparkle",
+      "embellish.special_day_specular",
+      "embellish.beaded_fringe_suspended"
+    ],
+    "incompatible": [
+      "dress.pattern.bold_graphic"
+    ],
+    "encourages": [
+      "bow",
+      "theatrical",
+      "construction",
+      "focus.turn_three_quarter",
+      "focus.angle_elevated_quarter_turn"
+    ],
+    "min_visible_distance": "full_body",
+    "theme_tags": []
+  },
+  "embellish.bow_bonanza_waist_accent": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Enormous waist bow projecting far forward",
+    "contents": "GIANT WAIST BOW - PRIMARY EMBELLISHMENT. Massive bow at center front waist. Loops 20-25cm wide projecting 8-12cm FORWARD. Ribbon tails cascade down skirt. So large extends past body width. Casts shadow beneath. Breaks waist plane outward. IMPOSSIBLE TO MISS.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [
+      "dress.pattern.bold_graphic"
+    ],
+    "encourages": [
+      "bow",
+      "composition",
+      "structured",
+      "focus.angle_elevated_quarter_turn"
+    ],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "bow_obsession",
+      "gingham_tradition",
+      "romantic",
+      "bow",
+      "composition",
+      "theatrical"
+    ],
+    "placement": "front",
+    "visibility_angles": [
+      "front",
+      "three-quarter"
+    ]
+  },
+  "embellish.french_knot_constellation": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Tiny French knots creating texture",
+    "contents": "French knot flower clusters at gather peaks. 5-knot clusters at apex of each bodice gather: 3 across front, 2 at each side, 2 at back. 7 clusters total marking bodice rhythm.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "texture",
+      "subtle"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.structural_accent_details": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Subtle accents supporting primary embellishment",
+    "contents": "Delicate accent details at construction points. Small trim elements highlighting dress structure without competing with primary embellishment. Accent color details at seams and junctions.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "construction",
+      "subtle"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.pin_tuck_rhythm": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Pin tucks for subtle texture",
+    "contents": "Vertical pin tucks at bodice sides. 3mm tucks at 1.5in intervals: 2 tucks left side, 2 tucks right side. 4 parallel lines flanking center panel. Subtle dimensional texture.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "texture",
+      "structural"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.caught_thread_glimmer": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Metallic threads echoing primary embellishment",
+    "contents": "Fine metallic thread accents near primary embellishment. Subtle gold highlights at 3-5 points where primary embellishment anchors to dress structure. Delicate echo enhancing focal placement.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "metallic",
+      "sparkle"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.breath_of_tulle": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Tulle wisps between layers",
+    "contents": "Tulle rosettes at shoulder points. 4cm gathered tulle at: left shoulder seam (1), right shoulder seam (1), center back neckline (1). 3 rosettes marking upper frame.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "tulle",
+      "layer"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.hidden_pearl_surprise": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Hidden pearls",
+    "contents": "Pearl buttons down center back. 6mm pearls at 2in intervals: neckline to waist. 8 buttons in vertical line. Functional closures doubling as decoration.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "pearl",
+      "hidden"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.gossamer_thread_float": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Floating threads",
+    "contents": "Ribbon streamers from waist bow. 1cm ribbons, 12in length: 2 from center back bow, 1 from each side seam. 4 streamers total flowing from waist.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "thread",
+      "movement"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.micro_sequin_dust": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Micro sequin dust",
+    "contents": "Heart sequins framing neckline. 5mm hearts at 1.5cm intervals following collar: center front to shoulder (8 each side), across back (8). 24 hearts in continuous frame.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "sequin",
+      "sparkle"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.thread_painting_hint": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Thread accent detail",
+    "contents": "Small embroidered motif at bodice center. Single flower (1.5cm) at natural waist with tiny leaves. Subtle color accent marking focal point.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "embroidery",
+      "color"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.caught_light_crystals": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Crystals in weave",
+    "contents": "Crystal drops at sleeve tier points. 4mm teardrops at lowest ruffle point: 3 on outer tier, 2 on middle, 1 on inner. Mirrored both sleeves. 12 crystals in pyramid arrangement.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "crystal",
+      "integrated"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.velvet_breath_dots": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Velvet trim accent",
+    "contents": "Narrow velvet ribbon at side waist. 1cm velvet trim at left and right side seams where waist meets skirt. 2 small velvet accents marking construction junction.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "velvet",
+      "texture"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.edge_kiss_metallic": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Metallic edge accent",
+    "contents": "Fine metallic thread at hem corners. 1cm gold thread accent at: center front hem (1), center back hem (1), side seam hems (2). 4 small metallic points marking hem structure.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "metallic",
+      "edge"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.tension_point_jewels": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Jewels at stress points",
+    "contents": "Crystal clusters at strap points. 5mm crystals in triangle formation: 3 crystals at left shoulder, 3 at right shoulder. 6 crystals total marking structural anchors.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "jewel",
+      "structural"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.whisper_thin_ribbons": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Hair-thin ribbon accents",
+    "contents": "Narrow ribbon trim at side seams. 3mm ribbon following left and right side seams from underarm to waist. 2 vertical lines marking construction. Delicate seam emphasis.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "ribbon",
+      "subtle"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.scatter_rosette_whispers": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Tiny rosette accents",
+    "contents": "Fabric rosettes down center back. 3cm rosettes in vertical line: neckline (1), mid-back (1), waist (1), below waist (1), hip (1). 5 rosettes evenly spaced.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "rosette",
+      "subtle"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.lettuce_edge_breath": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Lettuce edge trim",
+    "contents": "Lettuce ruffle on sleeve tiers. 1cm rolled edge on each tier: outer tier, middle tier, inner tier. Both sleeves. 6 ruffled edges total.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "edge",
+      "trim"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.thread_bow_whispers": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Thread bow accents",
+    "contents": "Ribbon bows at structural points. 1.5cm bows at: shoulder points (2), sleeve tier junctions (6), center neckline (1), side waist seams (2). 11 bows at intersections.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "bow",
+      "subtle"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.seed_pearl_secrets": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Hidden seed pearls",
+    "contents": "Pearl swag at neckline. 3mm pearl strand in single curve below collar. Anchored at: left shoulder, center front dip, right shoulder. 6in span, 15 pearls.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "pearl",
+      "hidden"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.lace_fragment_whispers": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Lace fragments",
+    "contents": "Lace hearts at skirt center. 3 heart appliques in descending size: 5cm at top, 4cm middle, 3cm bottom. Vertical arrangement at center front skirt.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "theme_tags": [
+      "lace",
+      "subtle"
+    ],
+    "max_visible_distance": "close"
+  },
+  "embellish.waist_ruffle_band": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Narrow ruffle band at waistline - silhouette accent",
+    "contents": "Single gathered ruffle band (1.5-2in width) circling waist seam. Satin-edged ruffle in dress color or accent tone. Stands perpendicular creating dimensional break at waistline.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "silhouette",
+      "structure",
+      "sweet"
+    ]
+  },
+  "embellish.hip_peplum_ruffle": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Side hip peplum ruffle - silhouette extension",
+    "contents": "Short peplum ruffle (3-4in length) at each hip side seam. Gathered at waist seam, flares outward. Breaks side silhouette adding width at hips.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "silhouette",
+      "structure",
+      "dimensional"
+    ]
+  },
+  "embellish.shoulder_cap_ruffle": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Shoulder cap ruffle - extends shoulder line",
+    "contents": "Small gathered ruffle (2in width) at shoulder seam cap. Stands upward extending shoulder line. Single layer organza or tulle in dress color.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close",
+    "theme_tags": [
+      "silhouette",
+      "structure",
+      "sweet"
+    ]
+  },
+  "embellish.back_waist_bow_depth": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Back waist bow - creates rear depth",
+    "contents": "Single satin bow (4-5in width) at center back waist seam. Tails hang 6-8in. Dimensional depth at rear waistline visible in three-quarter views.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [
+      "embellish.bow_bonanza_back_drama"
+    ],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "silhouette",
+      "bow",
+      "sweet",
+      "dimensional"
+    ],
+    "placement": "back"
+  },
+  "embellish.side_seam_ruffle_strips": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Vertical ruffle strips at side seams",
+    "contents": "Narrow ruffle strips (1in width) running vertically along both side seams from waist to hem. Vertical accent breaking side profile.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "silhouette",
+      "structure",
+      "vertical"
+    ]
+  },
+  "embellish.hem_double_ruffle_layer": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Double ruffle layer at hem edge",
+    "contents": "Two narrow ruffle layers (1in each) stacked at hem edge. Lower ruffle extends below dress hem 0.5in, upper ruffle sits above. Breaks bottom edge with dimensional flutter.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "silhouette",
+      "hem",
+      "sweet"
+    ]
+  },
+  "embellish.princess_seam_ruffle_trace": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Narrow ruffle tracing princess seam",
+    "contents": "Thin gathered ruffle (0.75in width) following right princess seam from shoulder to waist. Subtle vertical dimension along bodice structure line.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close",
+    "theme_tags": [
+      "silhouette",
+      "structure",
+      "subtle"
+    ]
+  },
+  "embellish.collar_stand_ruffle": {
+    "domain": "COUTURE",
+    "tier": 2,
+    "description": "Standing ruffle at collar edge",
+    "contents": "Small standing ruffle (1.5in height) at neckline collar edge. Gathered organza stands upward framing face. Circles full neckline in dress color or white.",
+    "group": "D0_Core",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "close",
+    "theme_tags": [
+      "silhouette",
+      "sweet",
+      "collar"
+    ]
+  },
+  "embellish.shoulder_ruffle_explosion_medium": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL MEDIUM: Asymmetric shoulder drama",
+    "contents": "ASYMMETRIC SHOULDER RUFFLES - PRIMARY EMBELLISHMENT. RIGHT shoulder erupts with massive ultra-gathered organza cloud. LEFT shoulder smaller restrained ruffle. Deliberate imbalance. Right shouts, left whispers. Visual weight pulls right creating diagonal movement.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "placement": "shoulder",
+    "visibility_angles": [
+      "front",
+      "side",
+      "three-quarter"
+    ],
+    "min_visible_distance": "medium",
+    "max_visible_distance": "medium",
+    "theme_tags": [
+      "romantic",
+      "theatrical",
+      "sweet",
+      "ruffle"
+    ]
+  },
+  "embellish.bustle_projection_dramatic": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Victorian bustle creating dramatic back projection",
+    "contents": "BUSTLE STRUCTURE - PRIMARY EMBELLISHMENT. Fabric gathered and supported creating shelf projecting 15-25cm BEHIND body at lower back. Skirt drapes over framework creating exaggerated posterior curve. Back silhouette breaks natural body line dramatically. Bustle visible as sharp horizontal projection when viewed from side. ARCHITECTURAL BACK PROJECTION creating unnatural silhouette disturbance. Victorian structure transforming back curve into dramatic shelf visible in full body framing.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [],
+    "encourages": [
+      "victorian",
+      "dramatic",
+      "architectural"
+    ],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "refined_elegance",
+      "victorian",
+      "dramatic"
+    ],
+    "placement": "back",
+    "visibility_angles": [
+      "back",
+      "side",
+      "three-quarter-back"
+    ]
+  },
+  "embellish.pannier_hip_explosion": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Side panniers making hips dramatically wider",
+    "contents": "SIDE PANNIERS - PRIMARY EMBELLISHMENT. Structured fabric panels at both hips extending 20-30cm SIDEWAYS from body. Skirt drapes over side cages creating width impossible for human hips. Hip line twice natural width. Silhouette rectangular instead of bell. HORIZONTAL WIDTH EXPLOSION at hip level. 18th century structure breaking natural body proportions visible in full body framing.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [],
+    "encourages": [
+      "rococo",
+      "theatrical",
+      "architectural"
+    ],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "refined_elegance",
+      "theatrical",
+      "rococo",
+      "dramatic"
+    ],
+    "placement": "circumference",
+    "visibility_angles": [
+      "front",
+      "back",
+      "side",
+      "three-quarter"
+    ]
+  },
+  "embellish.standing_ruff_collar_tall": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Standing ruff extending above shoulders",
+    "contents": "STANDING RUFF COLLAR - PRIMARY EMBELLISHMENT. Pleated collar standing 15-20cm UPWARD from shoulders framing head. Stiffened lace or organza maintaining vertical structure. Ruff extends ABOVE shoulder line creating halo effect around head. Silhouette shows collar architecture extending past natural neckline. VERTICAL EXTENSION breaking head-shoulder boundary. Elizabethan structure creating dramatic frame visible in medium framing.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [],
+    "encourages": [
+      "elizabethan",
+      "theatrical",
+      "ruff"
+    ],
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "refined_elegance",
+      "lace_obsession",
+      "elizabethan",
+      "theatrical",
+      "crystalline_sparkle",
+      "celestial_magic",
+      "fantasy"
+    ],
+    "placement": "shoulder",
+    "visibility_angles": [
+      "front",
+      "side",
+      "back",
+      "three-quarter"
+    ]
+  },
+  "embellish.asymmetric_train_dragging": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Asymmetric train extending below hem",
+    "contents": "ASYMMETRIC TRAIN - PRIMARY EMBELLISHMENT. Back hem extends 30-50cm longer than front hem trailing behind body. Train drapes on floor behind subject. Front hem standard length. Back silhouette shows fabric pooling on ground. VERTICAL EXTENSION below natural hemline. Asymmetric length creating dramatic back trail visible in full body framing.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [],
+    "encourages": [
+      "dramatic",
+      "theatrical",
+      "formal"
+    ],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "refined_elegance",
+      "dramatic",
+      "formal"
+    ],
+    "placement": "back",
+    "visibility_angles": [
+      "back",
+      "side",
+      "three-quarter-back"
+    ]
+  },
+  "embellish.cage_crinoline_extreme": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Cage structure pushing skirt to extreme width",
+    "contents": "CAGE CRINOLINE - PRIMARY EMBELLISHMENT. Rigid hooped structure under skirt forcing fabric into dome 40-60cm radius from waist. Skirt maintains perfect bell even when standing still. Width at hem double natural bell silhouette. RADIAL EXPANSION creating architectural dome shape. Civil war era cage structure making dress wider than physically plausible visible in full body framing.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [],
+    "encourages": [
+      "victorian",
+      "dramatic",
+      "architectural"
+    ],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "dramatic",
+      "victorian",
+      "architectural",
+      "celestial_magic",
+      "fantasy"
+    ],
+    "placement": "circumference",
+    "visibility_angles": [
+      "front",
+      "back",
+      "side",
+      "three-quarter"
+    ]
+  },
+  "embellish.wing_sleeve_projection": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Wing sleeves extending horizontally from shoulders",
+    "contents": "WING SLEEVES REPLACE STANDARD SLEEVES - PRIMARY EMBELLISHMENT. Standard cap sleeves replaced by structured wing extensions. Wings extend 20-30cm HORIZONTALLY from shoulders like airplane wings. Stiffened fabric maintaining horizontal plane perpendicular to body. Shoulder width DOUBLED by wing projections. Arms underneath separate from wing structure above. NO puff sleeves, NO cap sleeves - replaced by horizontal wing planes. HORIZONTAL SHOULDER PROJECTION breaking natural arm line creating dramatic width. Theatrical wing structure visible as dramatic shoulder extensions in medium framing.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [],
+    "encourages": [
+      "theatrical",
+      "dramatic",
+      "architectural"
+    ],
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "theatrical",
+      "dramatic",
+      "architectural",
+      "crystalline_sparkle",
+      "celestial_magic",
+      "fantasy"
+    ],
+    "placement": "shoulder",
+    "visibility_angles": [
+      "front",
+      "back",
+      "side",
+      "three-quarter"
+    ]
+  },
+  "embellish.peplum_tier_horizontal": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Structured peplum creating sharp horizontal break",
+    "contents": "STRUCTURED PEPLUM - PRIMARY EMBELLISHMENT. Stiffened fabric tier at natural waist extending 15-20cm OUTWARD horizontally before dropping. Creates sharp shelf at waist level. Silhouette shows horizontal line interrupting bell curve. Waist wider than hips temporarily. HORIZONTAL ARCHITECTURAL BREAK dividing bodice from skirt. Structured tier creating unnatural waist projection visible in full body framing.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [],
+    "encourages": [
+      "architectural",
+      "structured",
+      "dramatic"
+    ],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "architectural",
+      "structured",
+      "refined_elegance",
+      "lace_heirloom",
+      "gingham_tradition"
+    ],
+    "placement": "circumference",
+    "visibility_angles": [
+      "front",
+      "back",
+      "side",
+      "three-quarter"
+    ]
+  },
+  "embellish.double_shoulder_bow_massive": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Matching massive bows at both shoulders",
+    "contents": "DOUBLE SHOULDER BOWS - PRIMARY EMBELLISHMENT. Massive structured bows at BOTH shoulders each 25-30cm diameter. Loops project 12-15cm SIDEWAYS from body. Both shoulders dramatically widened. Silhouette shows twin projections extending past natural shoulder line. SYMMETRICAL WIDTH EXPLOSION doubling shoulder span. Twin architectural bows creating dramatic horizontal expansion visible in medium framing.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [],
+    "encourages": [
+      "bow",
+      "dramatic",
+      "sweet"
+    ],
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "bow_obsession",
+      "dramatic",
+      "sweet",
+      "glitter_abundance",
+      "theatrical"
+    ],
+    "placement": "shoulder",
+    "visibility_angles": [
+      "front",
+      "back",
+      "three-quarter"
+    ]
+  },
+  "embellish.back_drape_cascading": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Cascading back drape creating vertical extension",
+    "contents": "BACK DRAPE CASCADE - PRIMARY EMBELLISHMENT. Fabric panel attached at shoulders cascading down back extending 20-30cm below hem. Drape hangs separate from main skirt trailing behind. Back silhouette shows vertical extension past hemline. ARCHITECTURAL BACK TRAIL creating length disturbance. Victorian inspired drape extending silhouette downward visible in full body framing.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [],
+    "encourages": [
+      "dramatic",
+      "victorian",
+      "flowing"
+    ],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "dramatic",
+      "romantic_floral",
+      "flowing"
+    ],
+    "placement": "back",
+    "visibility_angles": [
+      "back",
+      "side",
+      "three-quarter-back"
+    ]
+  },
+  "embellish.tiered_ruffle_stack_wide": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "ARCHITECTURAL: Multiple tiered ruffles stacking outward",
+    "contents": "TIERED RUFFLE STACK - PRIMARY EMBELLISHMENT. Five horizontal ruffle tiers stacked hip to hem each projecting 8-12cm OUTWARD from tier below. Creates stepped pyramid silhouette. Each tier wider than previous. Skirt outline shows horizontal steps instead of smooth bell. RADIAL STEP EXPANSION creating architectural tier system. Wedding cake structure breaking smooth silhouette visible in full body framing.",
+    "group": "D1_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "incompatible": [],
+    "encourages": [
+      "ruffle",
+      "theatrical",
+      "sweet"
+    ],
+    "min_visible_distance": "full_body",
+    "theme_tags": [
+      "sweet",
+      "dramatic",
+      "ruffle",
+      "romantic_floral",
+      "gingham_tradition",
+      "glitter_abundance",
+      "theatrical"
+    ],
+    "placement": "circumference",
+    "visibility_angles": [
+      "front",
+      "back",
+      "side",
+      "three-quarter"
+    ]
+  }
+}

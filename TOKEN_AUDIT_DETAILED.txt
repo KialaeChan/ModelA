@@ -1,0 +1,81 @@
+⚠ tiktoken unavailable (ModuleNotFoundError), using math estimation
+  Math estimation: len(text) / 4 ≈ tokens
+
+📊 ModelA Token Audit
+
+
+╔════════════════════════════════════════╗
+║     TOKEN AUDIT SUMMARY                ║
+╚════════════════════════════════════════╝
+
+Total Atoms: 447
+Total Tokens: 16561
+Target: 3000 tokens
+Status: ✗ 13561 tokens over budget
+
+Violations Found:
+  - Over 300 chars: 4
+  - Narrative language: 17
+  - Negative language: 26
+  - Filter risk language: 3
+  Total: 50
+
+Top 3 Token-Heavy Files:
+  1. dress_accent_complements.json: 1964 tokens (45 atoms)
+  2. couture_construction.json: 1742 tokens (41 atoms)
+  3. style_enforcement.json: 1339 tokens (25 atoms)
+✓ Report saved to TOKEN_AUDIT_LOG.md
+
+==================================================
+Report preview (first 50 lines):
+==================================================
+# Token Audit & Compliance Report
+**Generated:** 2025-11-21T23:54:30.116543
+**Tiktoken Available:** No (using math estimation)
+**Total Atoms:** 447
+**Total Tokens:** 16561
+**Target Tokens:** 3000
+**Budget Status:** 16561 vs 3000 (✗ 13561 over)
+
+---
+## Token Breakdown by File
+
+| File | Atoms | Tokens | Avg/Atom | Avg Chars/Atom |
+|------|-------|--------|----------|----------------|
+| accessories_hosiery_shoes.json | 12 | 534 | 44.5 | 179 |
+| advanced_tailoring.json | 18 | 307 | 17.1 | 70 |
+| camera_angles_close.json | 6 | 283 | 47.2 | 190 |
+| camera_relationship.json | 6 | 173 | 28.8 | 116 |
+| character_age_safety.json | 4 | 188 | 47.0 | 188 |
+| character_core.json | 19 | 831 | 43.7 | 177 |
+| composition_flaws.json | 12 | 434 | 36.2 | 146 |
+| couture_construction.json | 41 | 1742 | 42.5 | 172 |
+| dress_accent_complements.json | 45 | 1964 | 43.6 | 176 |
+| dress_colors.json | 18 | 709 | 39.4 | 159 |
+| dress_ensembles.json | 9 | 108 | 12.0 | 48 |
+| dress_fabrics.json | 18 | 883 | 49.1 | 198 |
+| dress_patterns.json | 25 | 1034 | 41.4 | 167 |
+| expression_emotion.json | 32 | 988 | 30.9 | 125 |
+| hair_accessories.json | 26 | 767 | 29.5 | 119 |
+| hair_styling.json | 25 | 711 | 28.4 | 115 |
+| illness_manifestations.json | 16 | 530 | 33.1 | 134 |
+| makeup_application.json | 22 | 704 | 32.0 | 129 |
+| petticoat_maximum_puff.json | 6 | 123 | 20.5 | 84 |
+| pose_body_language.json | 25 | 702 | 28.1 | 114 |
+| response_timing.json | 3 | 52 | 17.3 | 70 |
+| scene_dissonance.json | 5 | 215 | 43.0 | 174 |
+| scene_lighting.json | 9 | 349 | 38.8 | 157 |
+| shiny_embellishments.json | 14 | 573 | 40.9 | 166 |
+| skirt_maximum_puff.json | 6 | 318 | 53.0 | 214 |
+| style_enforcement.json | 25 | 1339 | 53.6 | 216 |
+
+## Token Breakdown by Priority
+
+**P0 (Mandatory):** 47 atoms, 2251 tokens
+**P1 (Mandatory):** 297 atoms, 11422 tokens
+**P2 (Mandatory):** 103 atoms, 2888 tokens
+
+---
+## Compliance Violations
+
+### Rule 2 Violation: Characters over 300 (4 atoms)

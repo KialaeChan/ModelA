@@ -1,0 +1,759 @@
+{
+  "schema_version": "2.0_realism",
+  "description": "Realistic digital rendering focused schema - no anatomical jargon",
+  "layers": [
+    {
+      "layer_id": "ENSEMBLE_VISION",
+      "spatial_order": 0,
+      "description": "Master dressmaker theme - coordinates all dress elements for unified vision",
+      "slots": [
+        {
+          "slot_id": "ensemble.theme_selection",
+          "name": "Ensemble Theme Selection",
+          "priority_default": "P1: CORE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "dress_ensembles.json"
+          ],
+          "include_prefixes": [
+            "ensemble."
+          ],
+          "description": "Selects ONE coordinated theme grouping - all patterns, colors, embellishments follow this vision"
+        }
+      ]
+    },
+    {
+      "layer_id": "THEME_SIGNATURES",
+      "spatial_order": 0.5,
+      "description": "Theme-specific signature elements that define visual identity",
+      "slots": [
+        {
+          "slot_id": "theme.signatures",
+          "name": "Theme Signature Elements",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 0,
+          "max_atoms": 5,
+          "source_files": [
+            "theme_signatures.json"
+          ],
+          "include_prefixes": [
+            "signature."
+          ],
+          "theme_dependent": true,
+          "description": "5 signature elements that define the selected theme's visual identity - light, motif, color, texture, composition"
+        }
+      ]
+    },
+    {
+      "layer_id": "STYLE_FOUNDATION",
+      "spatial_order": 2,
+      "description": "Realism enforcement - always included first",
+      "slots": [
+        {
+          "slot_id": "style.core_mandate",
+          "name": "Style Foundation",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 7,
+          "max_atoms": 7,
+          "source_files": [
+            "style_enforcement.json"
+          ],
+          "include_prefixes": [
+            "style.photorealism_base",
+            "style.pastel_color_mandate",
+            "style.sparkle_mandate",
+            "style.sparkle_everywhere",
+            "style.core_unified",
+            "style.core_contrast",
+            "style.painted_surface",
+            "style.shadows_uncompromising",
+            "style.avoid_raw_photorealism",
+            "style.avoid_flat_anime",
+            "style.edge_quality"
+          ],
+          "description": "2.5D painted aesthetic mandate with negatives and pastel color enforcement"
+        }
+      ]
+    },
+    {
+      "layer_id": "CHARACTER_AGE_SAFETY",
+      "spatial_order": 1.5,
+      "description": "CRITICAL: Adult age confirmation and mature features - appears early and late for reinforcement",
+      "slots": [
+        {
+          "slot_id": "character.age_safety_early",
+          "name": "Adult Age Checkpoint (Early)",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 2,
+          "max_atoms": 2,
+          "source_files": [
+            "character_age_safety.json"
+          ],
+          "include_prefixes": [
+            "character.age_safety_explicit",
+            "character.adult_face_maturity"
+          ],
+          "description": "Early age safety confirmation - prevents childlike interpretation"
+        }
+      ]
+    },
+    {
+      "layer_id": "CHARACTER_CORE",
+      "spatial_order": 2,
+      "description": "Model A identity and skin",
+      "slots": [
+        {
+          "slot_id": "character.identity",
+          "name": "Character Identity",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 2,
+          "max_atoms": 1,
+          "source_files": [
+            "character_core.json"
+          ],
+          "include_prefixes": [
+            "character.identity",
+            "character.dissonance",
+            "character.cool_undertone"
+          ],
+          "description": "Core unchanging identity"
+        },
+        {
+          "slot_id": "character.skin",
+          "name": "Skin Quality",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 2,
+          "max_atoms": 1,
+          "source_files": [
+            "character_core.json"
+          ],
+          "include_prefixes": [
+            "character.skin",
+            "character.illness"
+          ],
+          "description": "Realistic skin rendering"
+        },
+        {
+          "slot_id": "character.face",
+          "name": "Face & Eyes",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 2,
+          "max_atoms": 1,
+          "source_files": [
+            "character_core.json"
+          ],
+          "include_prefixes": [
+            "character.eyes",
+            "character.facial",
+            "character.makeup"
+          ],
+          "description": "Facial features and eyes"
+        },
+        {
+          "slot_id": "character.makeup_comprehensive",
+          "name": "WORLD-CLASS PROFESSIONAL MAKEUP - Complete System",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 3,
+          "max_atoms": 3,
+          "source_files": [
+            "makeup_comprehensive.json"
+          ],
+          "include_prefixes": [
+            "makeup.professional"
+          ],
+          "description": "Complete consolidated professional makeup system - base, sparkle, and detail layers always load together"
+        },
+        {
+          "slot_id": "character.hair",
+          "name": "Hair Core",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "character_core.json"
+          ],
+          "include_prefixes": [
+            "character.hair"
+          ],
+          "description": "Pink bob with blonde roots"
+        }
+      ]
+    },
+    {
+      "layer_id": "EXPRESSION_EMOTION",
+      "spatial_order": 3,
+      "description": "Emotional state and expression",
+      "slots": [
+        {
+          "slot_id": "expression.camera_gaze",
+          "name": "Camera Gaze",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "expression_emotion.json"
+          ],
+          "include_prefixes": [
+            "expression.gaze_",
+            "expression.gaze_dissociated",
+            "expression.gaze_partial"
+          ],
+          "description": "Eyes oriented toward camera location with varying focus and engagement"
+        },
+        {
+          "slot_id": "expression.core",
+          "name": "Core Expression",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 4,
+          "max_atoms": 2,
+          "source_files": [
+            "expression_emotion.json"
+          ],
+          "include_prefixes": [
+            "expression."
+          ],
+          "exclude_prefixes": [
+            "expression.gaze_"
+          ],
+          "description": "Performed cuteness, compliance, fatigue - avoid repetition"
+        }
+      ]
+    },
+    {
+      "layer_id": "ILLNESS_STATE",
+      "spatial_order": 4,
+      "description": "Critical illness manifestations - severe physical breakdown",
+      "slots": [
+        {
+          "slot_id": "illness.symptoms",
+          "name": "Illness Manifestation",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 2,
+          "max_atoms": 2,
+          "source_files": [
+            "illness_manifestations.json"
+          ],
+          "include_prefixes": [
+            "illness."
+          ],
+          "description": "2 critical illness atoms - severe insomnia + profound dissociation (always loaded)"
+        }
+      ]
+    },
+    {
+      "layer_id": "POSE_BODY",
+      "spatial_order": 5,
+      "description": "Body language and stance",
+      "slots": [
+        {
+          "slot_id": "pose.stance",
+          "name": "Pose & Stance",
+          "priority_default": "P1: CORE",
+          "min_atoms": 3,
+          "max_atoms": 1,
+          "source_files": [
+            "pose_body_language.json"
+          ],
+          "include_prefixes": [
+            "pose."
+          ],
+          "description": "Single complete pose - prevents frankenstein multi-pose concatenation"
+        },
+        {
+          "slot_id": "pose.timing",
+          "name": "Response Timing",
+          "priority_default": "P2: DETAIL",
+          "min_atoms": 0,
+          "max_atoms": 0,
+          "source_files": [
+            "response_timing.json"
+          ],
+          "include_prefixes": [
+            "timing."
+          ],
+          "description": "Speed and quality of compliance response"
+        }
+      ]
+    },
+    {
+      "layer_id": "HAIR_ACCESSORIES",
+      "spatial_order": 6,
+      "description": "Hair styling accessories",
+      "slots": [
+        {
+          "slot_id": "hair.accessories",
+          "name": "Hair Accessories",
+          "priority_default": "P2: DETAIL",
+          "min_atoms": 2,
+          "max_atoms": 1,
+          "source_files": [
+            "hair_accessories.json"
+          ],
+          "include_prefixes": [
+            "hair.accessory",
+            "hair.rendering"
+          ],
+          "description": "Clips, bows, or headband"
+        }
+      ]
+    },
+    {
+      "layer_id": "HAIR_STYLING",
+      "spatial_order": 7,
+      "description": "Salon styling variations on pink bob",
+      "slots": [
+        {
+          "slot_id": "hair.styling",
+          "name": "Hair Styling",
+          "priority_default": "P2: DETAIL",
+          "min_atoms": 1,
+          "max_atoms": 0,
+          "source_files": [
+            "hair_styling.json"
+          ],
+          "include_prefixes": [
+            "hair.style"
+          ],
+          "description": "Professional salon styling on bob base"
+        }
+      ]
+    },
+    {
+      "layer_id": "COUTURE_DRESS",
+      "spatial_order": 8,
+      "description": "Dress construction and detail - largest section",
+      "slots": [
+        {
+          "slot_id": "dress.silhouette",
+          "name": "Dress Silhouette",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "couture_construction.json"
+          ],
+          "include_prefixes": [
+            "dress.silhouette"
+          ],
+          "description": "Dress silhouette shape only"
+        },
+        {
+          "slot_id": "dress.neckline",
+          "name": "Neckline Style",
+          "priority_default": "P1: CORE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "couture_construction.json"
+          ],
+          "include_prefixes": [
+            "dress.neckline"
+          ],
+          "description": "Neckline style - Peter Pan, standing ruffle, scalloped, or other"
+        },
+        {
+          "slot_id": "dress.primary_color",
+          "name": "Dress Color",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "dress_colors.json"
+          ],
+          "include_prefixes": [
+            "dress.color"
+          ],
+          "description": "Primary dress color - pulled 100% of time"
+        },
+        {
+          "slot_id": "dress.accent_color",
+          "name": "Accent Color",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "dress_colors.json"
+          ],
+          "include_prefixes": [
+            "dress.accent"
+          ],
+          "description": "Accent color intelligently paired to primary color via requires field"
+        },
+        {
+          "slot_id": "dress.pattern",
+          "name": "Dress Pattern",
+          "priority_default": "P1: CORE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "dress_patterns.json"
+          ],
+          "include_prefixes": [
+            "dress.pattern"
+          ],
+          "description": "Dress pattern/texture"
+        },
+        {
+          "slot_id": "dress.bodice",
+          "name": "Bodice Construction",
+          "priority_default": "P1: CORE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "couture_construction.json"
+          ],
+          "include_prefixes": [
+            "dress.bodice",
+            "dress.lattice"
+          ],
+          "description": "Bodice construction only - flat cut for AMAB body"
+        },
+        {
+          "slot_id": "dress.sleeves",
+          "name": "Sleeve Style",
+          "priority_default": "P1: CORE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "dress_sleeves.json"
+          ],
+          "include_prefixes": [
+            "sleeve."
+          ],
+          "exclude_groups": [],
+          "description": "Sleeve style - can be replaced by architectural embellishments"
+        },
+        {
+          "slot_id": "dress.elegant_details",
+          "name": "Elegant Details",
+          "priority_default": "P1: CORE",
+          "min_atoms": 4,
+          "max_atoms": 1,
+          "source_files": [
+            "couture_construction.json"
+          ],
+          "include_prefixes": [
+            "dress.bow_",
+            "dress.trim_",
+            "dress.detail_",
+            "dress.elegant_"
+          ],
+          "description": "Tasteful elegant details - lace overlays, structured bows, embroidery, sweet complexity"
+        },
+        {
+          "slot_id": "dress.skirt",
+          "name": "Skirt Construction",
+          "priority_default": "P1: CORE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "couture_construction.json",
+            "skirt_maximum_puff.json"
+          ],
+          "include_prefixes": [
+            "dress.skirt",
+            "dress.hem_"
+          ],
+          "description": "Single complete skirt description - includes MAXIMUM puff options",
+          "max": 1
+        },
+        {
+          "slot_id": "dress.petticoat",
+          "name": "Petticoat System",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 2,
+          "max_atoms": 1,
+          "source_files": [
+            "couture_construction.json",
+            "petticoat_maximum_puff.json"
+          ],
+          "include_prefixes": [
+            "dress.petticoat",
+            "dress.underskirt"
+          ],
+          "description": "Elaborate petticoat - includes MAXIMUM volume options",
+          "max": 1
+        },
+        {
+          "slot_id": "dress.fabric",
+          "name": "Fabric Behavior",
+          "priority_default": "P1: CORE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "dress_fabrics.json",
+            "couture_construction.json"
+          ],
+          "include_prefixes": [
+            "fabric.",
+            "dress.fabric"
+          ],
+          "description": "Fabric type and drape behavior"
+        },
+        {
+          "slot_id": "dress.details",
+          "name": "Construction Details",
+          "priority_default": "P1: CORE",
+          "min_atoms": 2,
+          "max_atoms": 0,
+          "source_files": [
+            "couture_construction.json",
+            "advanced_tailoring.json"
+          ],
+          "include_prefixes": [
+            "dress.seam",
+            "dress.boning",
+            "dress.closure",
+            "dress.lace",
+            "tailoring."
+          ],
+          "description": "2 elaborate construction techniques - prissy overcrafted detail"
+        },
+        {
+          "slot_id": "theme_embellishment_primary",
+          "name": "Theme Embellishment (Primary)",
+          "include_prefixes": [
+            "embellish",
+            "hair.primary"
+          ],
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "theme_locked": true,
+          "description": "MANDATORY: Pull only theme-matching atoms (dress OR hair primaries). Forces visible theme."
+        },
+        {
+          "slot_id": "dress.embellishments",
+          "name": "Shiny Embellishments",
+          "priority_default": "P1: CORE",
+          "min_atoms": 0,
+          "max_atoms": 0,
+          "source_files": [
+            "shiny_embellishments.json"
+          ],
+          "include_prefixes": [
+            "embellish."
+          ],
+          "exclude_groups": [
+            "D1_Architectural"
+          ],
+          "required_atoms": [
+            "embellish.special_day_signature_sparkle"
+          ],
+          "description": "Supporting sparkle elements (not primary embellishment). Coordination atom ensures hierarchy."
+        }
+      ]
+    },
+    {
+      "layer_id": "ACCESSORIES",
+      "spatial_order": 9,
+      "description": "Hosiery and footwear",
+      "slots": [
+        {
+          "slot_id": "accessories.hosiery",
+          "name": "Hosiery",
+          "priority_default": "P1: CORE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "accessories_hosiery_shoes.json"
+          ],
+          "include_prefixes": [
+            "hosiery."
+          ],
+          "description": "Sheer stockings"
+        },
+        {
+          "slot_id": "accessories.footwear",
+          "name": "Footwear",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 2,
+          "max_atoms": 1,
+          "source_files": [
+            "accessories_hosiery_shoes.json"
+          ],
+          "include_prefixes": [
+            "footwear."
+          ],
+          "description": "Mary jane shoes"
+        }
+      ]
+    },
+    {
+      "layer_id": "SCENE_ENVIRONMENT",
+      "spatial_order": 10,
+      "description": "Room, lighting, camera",
+      "slots": [
+        {
+          "slot_id": "scene.room",
+          "name": "Room & Environment",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 3,
+          "max_atoms": 2,
+          "source_files": [
+            "scene_lighting.json"
+          ],
+          "include_prefixes": [
+            "scene."
+          ],
+          "description": "Massive salon facility with dense equipment"
+        },
+        {
+          "slot_id": "scene.lighting",
+          "name": "Lighting Setup",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 2,
+          "max_atoms": 1,
+          "source_files": [
+            "scene_lighting.json"
+          ],
+          "include_prefixes": [
+            "lighting."
+          ],
+          "description": "6500K LED lighting"
+        },
+        {
+          "slot_id": "scene.camera",
+          "name": "Camera Angle",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "scene_lighting.json",
+            "camera_angles_close.json"
+          ],
+          "include_prefixes": [
+            "camera.elevated",
+            "camera.casual",
+            "camera.deep",
+            "camera.angle",
+            "camera.overhead"
+          ],
+          "description": "Camera angle and framing - includes closer detail-showing angles"
+        },
+        {
+          "slot_id": "camera.relationship",
+          "name": "Camera Relationship",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "camera_relationship.json"
+          ],
+          "include_prefixes": [
+            "camera.turn",
+            "camera.stumbled",
+            "camera.finding",
+            "camera.hasty",
+            "camera.head"
+          ],
+          "description": "Subject's dynamic relationship with camera - turn phase or hasty capture moment"
+        },
+        {
+          "slot_id": "composition.flaws",
+          "name": "Compositional Flaws",
+          "priority_default": "P1: CORE",
+          "min_atoms": 3,
+          "max_atoms": 1,
+          "source_files": [
+            "composition_flaws.json"
+          ],
+          "include_prefixes": [
+            "composition."
+          ],
+          "description": "Unprofessional framing elements - hasty, careless, callous documentation"
+        }
+      ]
+    },
+    {
+      "layer_id": "SCENE_DISSONANCE",
+      "spatial_order": 10.5,
+      "description": "Scene and character dissonance - paradox between dress and environment, beauty and breakdown",
+      "slots": [
+        {
+          "slot_id": "dissonance.core",
+          "name": "Scene Dissonance",
+          "priority_default": "P1: CORE",
+          "min_atoms": 2,
+          "max_atoms": 2,
+          "source_files": [
+            "scene_dissonance.json"
+          ],
+          "include_prefixes": [
+            "dissonance."
+          ],
+          "description": "Dress vs environment, beauty vs breakdown - central tension of the work"
+        }
+      ]
+    },
+    {
+      "layer_id": "CHARACTER_AGE_SAFETY_LATE",
+      "spatial_order": 11.5,
+      "description": "CRITICAL: Adult age reinforcement at end - ensures interpretation lock",
+      "slots": [
+        {
+          "slot_id": "character.age_safety_late",
+          "name": "Adult Age Checkpoint (Late)",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 1,
+          "max_atoms": 1,
+          "source_files": [
+            "character_age_safety.json"
+          ],
+          "include_prefixes": [
+            "character.adult_proportions_body",
+            "character.adult_proportions_face_close"
+          ],
+          "description": "Late age safety reinforcement - final reminder before style closing"
+        }
+      ]
+    },
+    {
+      "layer_id": "STYLE_CHECKPOINT",
+      "spatial_order": 11,
+      "description": "Mid-prompt realism reminders",
+      "slots": [
+        {
+          "slot_id": "style.checkpoints",
+          "name": "Style Checkpoints",
+          "priority_default": "P1: CORE",
+          "min_atoms": 1,
+          "max_atoms": 4,
+          "source_files": [
+            "style_enforcement.json"
+          ],
+          "include_prefixes": [
+            "style.edge_quality",
+            "style.skin_realism",
+            "style.fabric_realism",
+            "style.hair_realism",
+            "style.material_properties"
+          ],
+          "description": "Realism reminders throughout"
+        }
+      ]
+    },
+    {
+      "layer_id": "STYLE_FINAL",
+      "spatial_order": 12,
+      "description": "Final style enforcement",
+      "slots": [
+        {
+          "slot_id": "style.closing",
+          "name": "Final Style Statement",
+          "priority_default": "P0: MANDATE",
+          "min_atoms": 2,
+          "max_atoms": 1,
+          "source_files": [
+            "style_enforcement.json"
+          ],
+          "include_prefixes": [
+            "style.dimensional_final",
+            "style.value_modeling"
+          ],
+          "description": "Final 2.5D painted aesthetic enforcement"
+        }
+      ]
+    }
+  ]
+}

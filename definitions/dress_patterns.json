@@ -1,0 +1,194 @@
+{
+  "dress.pattern.glittered_dots": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Polka dots with integrated glitter weave",
+    "contents": "Polka dots in accent color on glitter-woven fabric base. Dots and glitter unified in sparkle. Cheerful pattern with shimmer throughout.",
+    "group": "fabric_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "medium"
+  },
+  "dress.pattern.glittered_florals": {
+    "domain": "COUTURE",
+    "tier": 1,
+    "description": "Floral print with integrated glitter weave",
+    "contents": "Small floral motifs in accent color woven throughout glitter-woven base fabric. Flowers catch light with shimmer. Sweet sparkling botanical.",
+    "group": "fabric_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "requires": [],
+    "excludes": [],
+    "min_visible_distance": "medium"
+  },
+  "dress.pattern.glitter_hearts": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Glitter hearts stencil print",
+    "contents": "GLITTER HEARTS in accent color stencil-printed in rows across dress. Each heart catches light with sparkle fill. Hearts shimmer and glint at every angle. Sweet romantic sparkle pattern.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "romantic",
+      "sweet"
+    ]
+  },
+  "dress.pattern.sequin_stars": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Sequin stars across dress",
+    "contents": "SEQUIN STARS in accent color in allover repeat across dress. Each star made of tiny sequins catching light. Stars twinkle and shimmer. Celestial sparkle magic.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "celestial",
+      "dreamy"
+    ]
+  },
+  "dress.pattern.holographic_stripes": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Holographic shimmer stripes",
+    "contents": "HOLOGRAPHIC STRIPES across dress in DRESS COLOR. Each stripe shifts through lighter and darker tones with iridescent shimmer. Bands catch light with prismatic sparkle. Maximum holographic effect.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "sparkle",
+      "dreamy"
+    ]
+  },
+  "dress.pattern.crystal_butterflies": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Crystal butterfly motifs",
+    "contents": "CRYSTAL BUTTERFLIES stamped in repeat across dress. Each butterfly outlined in rhinestones catching light. Wings shimmer with iridescent sparkle. Magical flutter pattern.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "whimsical",
+      "nature"
+    ]
+  },
+  "dress.pattern.sparkle_bows": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Glitter bow pattern",
+    "contents": "GLITTER BOWS in accent color across dress. Each bow filled with sparkle catching light. Bows shimmer and glint. Sweet ribbon pattern with maximum shine.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "bow",
+      "sweet"
+    ]
+  },
+  "dress.pattern.sequin_polka": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Sequin polka dots",
+    "contents": "SEQUIN POLKA DOTS in accent color on dress. Each dot a cluster of sequins catching light. Dots shimmer and flash. Playful sparkle spots everywhere.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "classic",
+      "playful"
+    ]
+  },
+  "dress.pattern.glitter_flowers": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Glitter flower motifs",
+    "contents": "GLITTER FLOWERS in accent color printed allover dress. Petals filled with sparkle catching light from every angle. Sweet garden shimmer pattern.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "floral",
+      "garden"
+    ]
+  },
+  "dress.pattern.rhinestone_crowns": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Rhinestone crown motifs",
+    "contents": "RHINESTONE CROWNS in neat rows across dress. Each tiny crown outlined in crystals. Crowns catch light and sparkle. Princess motif with royal shimmer.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "royal",
+      "princess"
+    ]
+  },
+  "dress.pattern.iridescent_clouds": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Iridescent cloud shapes",
+    "contents": "IRIDESCENT CLOUDS printed in rows across dress in ACCENT COLOR. Cloud shapes shimmer with color-change effect. Dreamy iridescent sparkle. Sweet sky pattern.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "dreamy",
+      "whimsical"
+    ]
+  },
+  "dress.pattern.sequin_moons": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Sequin crescent moons",
+    "contents": "SEQUIN CRESCENT MOONS in accent color across dress. Each moon made of shimmering sequins. Moons catch light and twinkle. Celestial night sparkle.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "celestial",
+      "dreamy"
+    ]
+  },
+  "dress.pattern.glitter_candy": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Glitter candy shapes",
+    "contents": "GLITTER CANDY shapes stencil-printed across dress. Lollipops and wrapped sweets in sparkle. Each candy catches light. Sweet treat shimmer pattern.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "sweet",
+      "playful"
+    ]
+  },
+  "dress.pattern.crystal_snowflakes": {
+    "domain": "DRESS",
+    "tier": 2,
+    "description": "Crystal snowflake pattern",
+    "contents": "CRYSTAL SNOWFLAKES in repeat pattern across dress. Each snowflake made of rhinestones catching light. Snowflakes shimmer and sparkle. Winter princess magic.",
+    "group": "dress_pattern",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "medium",
+    "theme_tags": [
+      "crystalline",
+      "winter"
+    ]
+  }
+}

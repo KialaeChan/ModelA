@@ -1,0 +1,57 @@
+{
+  "dissonance.dress_shine_vs_grey": {
+    "domain": "DISSONANCE",
+    "tier": 1,
+    "description": "Vibrant dress stands out against grey laboratory space",
+    "contents": "Vibrant cool dress stands out against grey laboratory walls. Saturated colors create clear visual contrast. Cool aqua, pink, lavender catch overhead light.",
+    "group": "dress_environment_conflict",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "dissonance.precious_vs_laboratory": {
+    "domain": "DISSONANCE",
+    "tier": 1,
+    "description": "Elaborate dress in utilitarian institutional setting",
+    "contents": "Couture dress in grey laboratory facility. Celebration dress in non-celebratory space. Festive aesthetic versus functional facility.",
+    "group": "dress_environment_conflict",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "dissonance.beauty_vs_breakdown": {
+    "domain": "DISSONANCE",
+    "tier": 1,
+    "description": "Perfect appearance contrasts with visible physical condition",
+    "contents": "Meticulous styling and heavy makeup visible alongside tired eyes, hollow cheeks, unwell expression. Detailed dress with embellishments contrasts with visible physical condition. Preparation visible alongside fatigue.",
+    "group": "character_environment_conflict",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "dissonance.celebration_vs_extraction": {
+    "domain": "DISSONANCE",
+    "tier": 1,
+    "description": "Celebration aesthetic in laboratory facility",
+    "contents": "Celebration dress clashes with laboratory facility. Equipment and laboratory details visible. Festive attire in institutional setting.",
+    "group": "scene_conflict",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  },
+  "dissonance.pose_strain_visible": {
+    "domain": "DISSONANCE",
+    "tier": 1,
+    "description": "Body positioned with visible physical strain",
+    "contents": "Pose held but already degrading. Position drifting from where it was placed. Physical fatigue in positioning.",
+    "group": "character_behavior_conflict",
+    "priority": "P1: CORE",
+    "random": false,
+    "requires": [],
+    "excludes": []
+  }
+}

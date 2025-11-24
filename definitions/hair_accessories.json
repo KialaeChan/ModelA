@@ -1,0 +1,338 @@
+{
+  "hair.accessory.rainbow_clips_allover": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Multiple colorful clips placed throughout hair",
+    "contents": "6-10 small colorful clips throughout bob. Placed at sides, crown, around face. Bright pastels - pink, lavender, mint, yellow, peach. Each clip.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.character_clips_collection": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Decorative motif clips - adult styling",
+    "contents": "8-12 decorative motif clips (3-5cm) placed throughout adult bob. Clips feature shapes like hearts, stars, flowers, butterflies, bows - fashion.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.pom_pom_elastics": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Multiple small sections with pom-pom elastics",
+    "contents": "Multiple tiny sections (8-12 sections) pulled through colored elastic bands with fluffy pom-pom (2-3cm) . Pom-poms in bright pastels..",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.scrunchies_multiple": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Multiple colorful scrunchies on small sections",
+    "contents": "Multiple scrunchies in pastel colors (pink, lavender, blue). Gathered at multiple ponytail sections.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.bow_clips_everywhere": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Decorative bow accents - adult styling",
+    "contents": "12-18 decorative bow accents (3-5cm) placed throughout adult bob hairstyle. Fashion styling accessories in coordinating pastels - some matching.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.flower_clips_garden": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Garden of small flower clips throughout hair",
+    "contents": "Plastic flowers (1.5-2cm) clipped throughout bob - 8-12 flowers total. Flowers in brights and pale pastels. Plastic flowers on clips. Evenly placed.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.butterfly_clips_flutter": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Multiple butterfly clips throughout hair",
+    "contents": "Plastic butterflies (2-3cm) on spring clips throughout bob - 6-10 butterflies. Colorful plastic butterflies on spring clips.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.rendering_digital": {
+    "domain": "HAIR_ACC",
+    "tier": 1,
+    "description": "Hair rendered digitally",
+    "contents": "Hair rendered digitally with strand structure and form-accurate anisotropic highlights. Dimensional depth, not flat anime hair shapes.",
+    "group": "D0_Core",
+    "priority": "P1: CORE",
+    "random": false
+  },
+  "hair.accessory.bow_headband_oversized": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Headband with enormous cheerful bow",
+    "contents": "Wide headband (4-5cm width) in cool pastel color with enormous bow at at crown. Bow dimensions 12-15cm dramatic accent dominating bob silhouette.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.multiple_bow_clips": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Multiple colorful bows placed throughout",
+    "contents": "4-6 bow clips (6-8cm each) placed throughout bob. Bows in attire accent color.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.ribbon_woven": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Bright ribbon woven through sections",
+    "contents": "Satin ribbon woven through hair sections. Color coordinated with dress. texture and dimension.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true
+  },
+  "hair.accessory.flower_crown_bob": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Crown of colorful flowers circling head",
+    "contents": "8-10 small or silk flowers (3-4cm each) at around crown circling head.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.glitter_clips_allover": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Glitter clips placed throughout",
+    "contents": "8-10 small glitter clips (2-3cm) throughout bob and bangs. Clips in silver, clear, or pale colors catching light.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.large_side_bow": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Single huge cheerful bow on side",
+    "contents": "Single oversized bow (12-15cm) clipped prominently to one side of bob. Bow in stiff ribbon or maintaining shape.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.twin_bows_matching": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Matching large bows on both sides",
+    "contents": "Two large matching bows (8-12cm) at symmetrically at temples. Bows in bright coordinating pastels with stiff ribbon maintaining shape. Perfect mirror.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.barrette_parade": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Row of colorful barrettes lined up",
+    "contents": "6-8 decorative barrettes (3-4cm each) lined up along one side of bob.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.headband_bow_attached": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Headband with large attached bow",
+    "contents": "Fabric headband (2-3cm width) with pre- bow at top center. Bow 5-8cm at at crown.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.alice_band_rosette": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Alice band with big fabric rosette",
+    "contents": "Plastic alice band with large rosette (6-10cm diameter) at top. Rosette rolled poofy flower.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.double_headband": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Multiple headbands stacked together",
+    "contents": "Two narrow headbands (1-2cm each) worn stacked parallel. Headbands in coordinating pastels - matching or contrasting colors. Both bands sit behind.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.pearl_strand_band": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Plastic pearl strand headband",
+    "contents": "Strand of small pearls (4-5mm) worn as headband circling crown. Pearls strung on elastic or wire. delicate band. White or cream pearls. Sits behind.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.flower_cluster_side": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Cluster of flowers on one side",
+    "contents": "3-5 small flowers (2-3cm each) clustered at one temple or above ear. Flowers in white or pale pastels pinned together in grouping. floral accent on.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.ribbon_bow_trailing": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Large bow with streaming ribbons",
+    "contents": "Wide satin ribbon (3-4cm) tied in bow with long trailing tails down back.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.bobby_pins_decorative": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Decorative bobby pins throughout",
+    "contents": "Decorative bobby pins placed throughout. Pearl or rhinestone accents on pin heads. Multiple placements.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.bow_clips_temple_pair": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Matching bows at both temples",
+    "contents": "Two matching bow clips (4-5cm each) at symmetrically at temples. Bows in coordinating pastel.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.headband_scalloped": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Wide headband with scalloped edge",
+    "contents": "Fabric headband (2-3cm width) with scalloped decorative edge on outer side. 6-8 gentle scallops border. Headband in solid pastel. Scallops add.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.accessory.clips_plus_headband": {
+    "domain": "HAIR_ACC",
+    "tier": 2,
+    "description": "Headband combined with multiple clips",
+    "contents": "Simple headband (2cm width) worn with 2-3 small bow clips (3-4cm) at sides. Headband and clips in coordinating pastels.",
+    "group": "hair_accessory_choice",
+    "priority": "P2: DETAIL",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "medium"
+  },
+  "hair.primary.butterfly_crystal_swarm": {
+    "domain": "HAIR_PRIMARY",
+    "tier": 1,
+    "description": "PRIMARY HAIR EMBELLISHMENT: EXCESSIVE butterfly crystal swarm - close-up framing",
+    "contents": "PRIMARY HAIR EMBELLISHMENT at crown/top of head. Butterfly swarm: 20-30 silver chains with faceted crystals (5-18mm) plus 12-18 dimensional fabric butterflies (15-28-33cm each) in pale pink, lavender, mint, peach, cream. Chains drape around entire head. Butterflies clustered at crown and trailing along chains. Construction extends beyond frame top - only lower/middle portions visible.",
+    "group": "D1_Hair_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "close",
+    "placement": "head",
+    "theme_tags": [
+      "butterfly",
+      "crystalline",
+      "celestial",
+      "sparkle"
+    ]
+  },
+  "hair.primary.theatrical_bow_palace": {
+    "domain": "HAIR_PRIMARY",
+    "tier": 1,
+    "description": "PRIMARY HAIR EMBELLISHMENT: EXCESSIVE theatrical bow palace - close-up framing",
+    "contents": "PRIMARY HAIR EMBELLISHMENT at crown/top of head. Bow construction (45-60-65cm) with 20-25 satin ribbon loops in blush pink, peach, cream, pale yellow. Multiple nested bow sizes. Largest loops 22-35-40cm width. Structured wiring maintaining volume. Construction extends beyond frame top - only lower/middle portions visible.",
+    "group": "D1_Hair_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "close",
+    "placement": "head",
+    "theme_tags": [
+      "bow",
+      "theatrical",
+      "dramatic",
+      "excess"
+    ]
+  },
+  "hair.primary.pearl_circlet_princess_excess": {
+    "domain": "HAIR_PRIMARY",
+    "tier": 1,
+    "description": "PRIMARY HAIR EMBELLISHMENT: EXCESSIVE pearl princess circlet - close-up framing",
+    "contents": "PRIMARY HAIR EMBELLISHMENT at crown/top of head. Pearl circlet headband (14-26-31cm width) with 30-40 trailing pearl chains. Dense graduated pearls (4-14mm) in white, cream, blush covering wide band around head. Pearl chains cascade from band draping around temples, forehead, sides. 8-12 chains visible in upper frame catching light. Construction extends beyond frame top - only lower/middle portions visible.",
+    "group": "D1_Hair_Architectural",
+    "priority": "P1: CORE",
+    "random": true,
+    "min_visible_distance": "close",
+    "max_visible_distance": "close",
+    "placement": "head",
+    "theme_tags": [
+      "pearl",
+      "refined",
+      "princess",
+      "elegant"
+    ]
+  }
+}
