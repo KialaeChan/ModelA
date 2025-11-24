@@ -12,8 +12,13 @@ from typing import Dict, List, Any
 # Import analytics utilities
 try:
     from analytics import count_tokens, TIKTOKEN_AVAILABLE
-except:
+except ImportError:
     # Fallback if analytics not available
+    def count_tokens(text: str) -> int:
+        return len(text) // 4
+    TIKTOKEN_AVAILABLE = False
+except Exception as e:
+    print(f"Warning: Unexpected error importing analytics: {e}")
     def count_tokens(text: str) -> int:
         return len(text) // 4
     TIKTOKEN_AVAILABLE = False
@@ -90,7 +95,9 @@ class ViolationAnalyzer:
                             "file": filename,
                             "contents": atom_data.get("contents", ""),
                         }
-            except:
+            except (FileNotFoundError, json.JSONDecodeError, PermissionError) as e:
+                # Skip files that can't be read or parsed
+                print(f"Warning: Could not process {filename}: {e}")
                 continue
     
     def analyze_all(self) -> Dict[str, Any]:
