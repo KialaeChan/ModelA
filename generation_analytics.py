@@ -21,7 +21,9 @@ def load_history() -> List[Dict]:
         try:
             with open(ANALYTICS_FILE, 'r') as f:
                 return json.load(f)
-        except:
+        except (json.JSONDecodeError, PermissionError) as e:
+            # Return empty list if file is corrupted or unreadable
+            print(f"Warning: Could not load history file: {e}")
             return []
     return []
 

@@ -18,13 +18,19 @@ try:
     import tiktoken
     encoding = tiktoken.get_encoding("cl100k_base")
     TIKTOKEN_AVAILABLE = True
-except:
+except ImportError:
     try:
         from tiktoken import get_encoding
         encoding = get_encoding("cl100k_base")
         TIKTOKEN_AVAILABLE = True
-    except:
+    except ImportError:
         pass
+    except Exception as e:
+        print(f"Warning: Unexpected error loading tiktoken: {e}")
+        pass
+except Exception as e:
+    print(f"Warning: Unexpected error importing tiktoken: {e}")
+    pass
 
 
 def count_tokens(text: str) -> int:
@@ -32,7 +38,8 @@ def count_tokens(text: str) -> int:
     if TIKTOKEN_AVAILABLE and encoding:
         try:
             return len(encoding.encode(text))
-        except:
+        except (AttributeError, TypeError) as e:
+            # Fallback if encoding fails or text is invalid
             return len(text) // 4
     return len(text) // 4
 
@@ -89,7 +96,9 @@ def analyze_definitions(definitions_dir: str = "definitions") -> Dict[str, Any]:
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 definitions = json.load(f)
-        except:
+        except (FileNotFoundError, json.JSONDecodeError, PermissionError) as e:
+            # Skip files that can't be read or parsed
+            print(f"Warning: Could not process {filename}: {e}")
             continue
         
         file_analysis = {

@@ -35,21 +35,32 @@ except Exception as e:
 # Import analytics toolkit
 try:
     from analytics import run_analytics, TIKTOKEN_AVAILABLE as ANALYTICS_TIKTOKEN
-except:
+except ImportError:
+    run_analytics = None
+    ANALYTICS_TIKTOKEN = False
+except Exception as e:
+    print(f"Warning: Unexpected error importing analytics: {e}")
     run_analytics = None
     ANALYTICS_TIKTOKEN = False
 
 # Import generation tracking
 try:
     from generation_analytics import track_generation, print_analytics_dashboard
-except:
+except ImportError:
+    track_generation = None
+    print_analytics_dashboard = None
+except Exception as e:
+    print(f"Warning: Unexpected error importing generation_analytics: {e}")
     track_generation = None
     print_analytics_dashboard = None
 
 # Import violation reporter
 try:
     from violation_reporter import ViolationAnalyzer
-except:
+except ImportError:
+    ViolationAnalyzer = None
+except Exception as e:
+    print(f"Warning: Unexpected error importing violation_reporter: {e}")
     ViolationAnalyzer = None
 
 # Configuration
@@ -104,7 +115,8 @@ class Atom:
         if TIKTOKEN_AVAILABLE:
             try:
                 return len(encoding.encode(self.contents))
-            except:
+            except (AttributeError, TypeError) as e:
+                # Fallback if encoding fails or contents is invalid
                 return len(self.contents) // 4
         else:
             return len(self.contents) // 4
@@ -997,7 +1009,8 @@ def count_tokens(text: str) -> int:
     if TIKTOKEN_AVAILABLE:
         try:
             return len(encoding.encode(text))
-        except:
+        except (AttributeError, TypeError) as e:
+            # Fallback if encoding fails or text is invalid
             return len(text) // 4
     else:
         return len(text) // 4
@@ -1309,7 +1322,9 @@ def main():
                         "character_limit": len(report.get("character_limit_violations", []))
                     }
                     total_violations = sum(violations_by_type.values())
-                except:
+                except Exception as e:
+                    # Violation analysis failed, continue without it
+                    print(f"Warning: Violation analysis failed: {e}")
                     pass
             
             # Get checkpoint data
@@ -1354,7 +1369,8 @@ def main():
         if sys.platform == "win32":
             try:
                 os.startfile(output_path)
-            except:
+            except (AttributeError, OSError):
+                # startfile not available or failed, try notepad
                 subprocess.Popen(['notepad.exe', output_path])
         elif sys.platform == "darwin":
             subprocess.run(["open", output_path])
